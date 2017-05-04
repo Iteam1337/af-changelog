@@ -1,5 +1,9 @@
 # af-changelog
 
+## API v.2.0.1 (2017-05-04)
+### Buggar
+* Fixar sökning på födelsedatum, eller början av ett.
+
 ## Sökgränssnitt v2.0.0 (2017-05-04)
 ### Features
 * Man kan nu söka på samordningsnummer, eller början av ett.
