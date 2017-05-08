@@ -2,6 +2,12 @@
 
 ## På test
 
+### Sökgränsnitt v2.0.1 (2017-05-08)
+
+* Vi korrigerade så att antal träffar per sida fungerar korrekt med paginering. 
+* Det går att välja mellan att visa 10, 25 eller 50 resultat per sida, och vi hämtar bara så många resultat åt gången för att minska belastningen på API:et.
+* Antal år och examen visas nu bara på relevant utbildningsnivå.
+
 ### Inmatningsgränssnitt v3.2.0 (2017-05-05)
 
 * Inmatning av namn och telefonnummer tillåter nu enbart latinska tecken
