@@ -8,6 +8,12 @@
 * Det går att välja mellan att visa 10, 25 eller 50 resultat per sida, och vi hämtar bara så många resultat åt gången för att minska belastningen på API:et.
 * Antal år och examen visas nu bara på relevant utbildningsnivå.
 
+### Inmatningsgränssnitt v3.3.0 (2017-05-09)
+* Varje info-ruta i Karriärguiden visas bara en gång. [#399]
+* Radioknapparna fixade i Personuppgifter-modalen så att man kan klicka Nej på AT-UND, Asyl m.fl. [#347]
+* Antal år är tvingat i Yrkeserfarenhet och kompetenser [#397]
+* Wizard kan startas om ifrån Inställningar-sidan. [#402]
+
 ### Inmatningsgränssnitt v3.2.0 (2017-05-05)
 
 * Inmatning av namn och telefonnummer tillåter nu enbart latinska tecken
