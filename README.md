@@ -8,21 +8,25 @@
 * Det går att välja mellan att visa 10, 25 eller 50 resultat per sida, och vi hämtar bara så många resultat åt gången för att minska belastningen på API:et.
 * Antal år och examen visas nu bara på relevant utbildningsnivå.
 
+------------
+
+## I produktion
+
+### Inmatningsgränssnitt v3.3.1 (2017-05-12)
+* Fixade så att Education fungerar igen. [#436]
+* Låst ner våra dependencies, så att vi alltid använder samma i Produktion, Test och CI.
+
 ### Inmatningsgränssnitt v3.3.0 (2017-05-09)
 * Varje info-ruta i Karriärguiden visas bara en gång. [#399]
 * Radioknapparna fixade i Personuppgifter-modalen så att man kan klicka Nej på AT-UND, Asyl m.fl. [#347]
 * Antal år är tvingat i Yrkeserfarenhet och kompetenser [#397]
 * Wizard kan startas om ifrån Inställningar-sidan. [#402]
 
-### Inmatningsgränssnitt v3.2.0 (2017-05-05)
 
+### Inmatningsgränssnitt v3.2.0 (2017-05-05)
 * Inmatning av namn och telefonnummer tillåter nu enbart latinska tecken
 * Det är nu obligatoriskt att ange antal år för yrkeserfarenhet / kompetens
 * Man kan ny fylla i att man har examen vid val av utbildningsnivå: gymnasium
-
-------------
-
-## I produktion
 
 ### API v.2.0.1 (2017-05-04)
 #### Buggar
