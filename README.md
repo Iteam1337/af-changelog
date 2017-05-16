@@ -2,15 +2,21 @@
 
 ## På test
 
+------------
+
+## I produktion
+
+### Sökgränsnitt v2.0.2 (2017-05-15)
+* Paginering: När det är många sidor görs radbyte för att förhindra att sid-knapparna hamnar utanför kanten [#373]
+* Positionerat sidbytesknapparna längst ner [#373]
+* Årsparametrar visas nu i sökkriterier [#416]
+* Förslag på sökresultat visas nu när man söker ort [#415]
+
 ### Sökgränsnitt v2.0.1 (2017-05-08)
 
 * Vi korrigerade så att antal träffar per sida fungerar korrekt med paginering. 
 * Det går att välja mellan att visa 10, 25 eller 50 resultat per sida, och vi hämtar bara så många resultat åt gången för att minska belastningen på API:et.
 * Antal år och examen visas nu bara på relevant utbildningsnivå.
-
-------------
-
-## I produktion
 
 ### Inmatningsgränssnitt v3.3.1 (2017-05-12)
 * Fixade så att Education fungerar igen. [#436]
@@ -21,7 +27,6 @@
 * Radioknapparna fixade i Personuppgifter-modalen så att man kan klicka Nej på AT-UND, Asyl m.fl. [#347]
 * Antal år är tvingat i Yrkeserfarenhet och kompetenser [#397]
 * Wizard kan startas om ifrån Inställningar-sidan. [#402]
-
 
 ### Inmatningsgränssnitt v3.2.0 (2017-05-05)
 * Inmatning av namn och telefonnummer tillåter nu enbart latinska tecken
