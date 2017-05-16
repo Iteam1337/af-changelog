@@ -6,6 +6,21 @@
 
 ## I produktion
 
+### Inmatningsgränssnitt v3.3.2 (2017-05-16)
+* Fixat så att språk uppdateras när man väljer ett annat på Startsidan eller i Inställningar [#441]
+* Man kan ändra år, examen och inriktning i Redigerings-läget av Utbildningar [#312]
+
+### API v3.1.0 (2017-05-16)
+#### Breaking
+* Vi gör queries direkt mot CMS:et [#432]
+
+#### Förbättringar
+* Uppdaterat Utbildnings-queryn [#306]
+* Tagit bort 'deprecated fields' [#407]
+* Sätter en kortare expiry på token [#409]
+* Tillåter API:et att läsa krävda SAML certifikat genom environment variabler
+* Docker-compose är mer konfigurerbar
+
 ### Sökgränsnitt v2.0.2 (2017-05-15)
 * Paginering: När det är många sidor görs radbyte för att förhindra att sid-knapparna hamnar utanför kanten [#373]
 * Positionerat sidbytesknapparna längst ner [#373]
