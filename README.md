@@ -26,6 +26,7 @@
 * Positionerat sidbytesknapparna längst ner [#373]
 * Årsparametrar visas nu i sökkriterier [#416]
 * Förslag på sökresultat visas nu när man söker ort [#415]
+* Man kan komma till Sök från AF:s sidor (Vis) utan att behöva logga in [#324](https://trello.com/c/Se2p6VN8/324-komma-till-sok-fran-af-s-sidor)
 
 ### Sökgränsnitt v2.0.1 (2017-05-08)
 
