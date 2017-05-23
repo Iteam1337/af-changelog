@@ -2,6 +2,9 @@
 
 ## På test
 
+### Sökgränssnitt v2.0.3 (2017-05-23)
+* Anpassat sök-gränssnittet för att fungera med olika skärmstorlekar [#454](https://trello.com/c/wymUdXKa/454)
+
 ### Inmatningsgränssnitt v3.4.0 (2017-05-23)
 #### Buggfixar
 * Tagit bort den extra Språk-labeln i Inställningar [456](https://trello.com/c/RowNAgQo/456)
