@@ -2,6 +2,18 @@
 
 ## På test
 
+### Inmatningsgränssnitt v3.4.0 (2017-05-23)
+#### Buggfixar
+* Tagit bort den extra Språk-labeln i Inställningar [456](https://trello.com/c/RowNAgQo/456)
+* Hela korten i karriärguiden är klickbara [#455](https://trello.com/c/JxQznRUI/455)
+* Grafiska buggar fixade i språkvalsraden [#453](https://trello.com/c/yVW1BeuU/453)
+
+#### Features
+* Inmatning av födelsedatum är uppdelat i 3 fält  (år, månad och dag) [#457](https://trello.com/c/aVDLsh6p/457)
+* I "Välj från lista"-Inmatningen av Yrkeserfarenhet och Karriärönskemål dyker en nivå upp i taget [#451](https://trello.com/c/9rX3zlwj/451)
+* Inmatning tillåter bara latinska tecken [#372](https://trello.com/c/01UP4uta/372)
+
+
 ------------
 
 ## I produktion
