@@ -2,6 +2,9 @@
 
 ## På test
 
+### API v3.1.3 (2017-05-24)
+* Visar/Skickar korrekt informationstext från Utbildning och Utbildningsnivå [#306](https://trello.com/c/0EYM7Akw/306)
+
 ### Inmatningsgränssnitt v3.5.0 (2017-05-24)
 #### Features
 * Karriärguiden visar text på utbildningsinriktning istället för utbildningsnivå när det finns [#306](https://trello.com/c/0EYM7Akw/306)
@@ -31,6 +34,9 @@
 * Inmatning av födelsedatum är uppdelat i 3 fält  (år, månad och dag) [#457](https://trello.com/c/aVDLsh6p/457)
 * I "Välj från lista"-Inmatningen av Yrkeserfarenhet och Karriärönskemål dyker en nivå upp i taget [#451](https://trello.com/c/9rX3zlwj/451)
 * Inmatning tillåter bara latinska tecken [#372](https://trello.com/c/01UP4uta/372)
+
+### API v3.1.2 (2017-05-18)
+Fixade översättningssträngar i PDF-versionen av profilen [#460](https://trello.com/c/oZ83bX7k/460)
 
 ### Inmatningsgränssnitt v3.3.2 (2017-05-16)
 * Fixat så att språk uppdateras när man väljer ett annat på Startsidan eller i Inställningar [#441]
