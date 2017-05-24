@@ -5,6 +5,10 @@
 ### Sökgränssnitt v2.0.3 (2017-05-23)
 * Anpassat sök-gränssnittet för att fungera med olika skärmstorlekar [#454](https://trello.com/c/wymUdXKa/454)
 
+------------
+
+## I produktion
+
 ### Inmatningsgränssnitt v3.4.0 (2017-05-23)
 #### Buggfixar
 * Tagit bort den extra Språk-labeln i Inställningar [456](https://trello.com/c/RowNAgQo/456)
@@ -15,11 +19,6 @@
 * Inmatning av födelsedatum är uppdelat i 3 fält  (år, månad och dag) [#457](https://trello.com/c/aVDLsh6p/457)
 * I "Välj från lista"-Inmatningen av Yrkeserfarenhet och Karriärönskemål dyker en nivå upp i taget [#451](https://trello.com/c/9rX3zlwj/451)
 * Inmatning tillåter bara latinska tecken [#372](https://trello.com/c/01UP4uta/372)
-
-
-------------
-
-## I produktion
 
 ### Inmatningsgränssnitt v3.3.2 (2017-05-16)
 * Fixat så att språk uppdateras när man väljer ett annat på Startsidan eller i Inställningar [#441]
