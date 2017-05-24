@@ -2,12 +2,13 @@
 
 ## På test
 
-### Sökgränssnitt v2.0.3 (2017-05-23)
-* Anpassat sök-gränssnittet för att fungera med olika skärmstorlekar [#454](https://trello.com/c/wymUdXKa/454)
 
 ------------
 
 ## I produktion
+
+### Sökgränssnitt v2.0.3 (2017-05-23)
+* Anpassat sök-gränssnittet för att fungera med olika skärmstorlekar [#454](https://trello.com/c/wymUdXKa/454)
 
 ### Inmatningsgränssnitt v3.4.0 (2017-05-23)
 #### Buggfixar
