@@ -2,6 +2,17 @@
 
 ## På test
 
+### Inmatningsgränssnitt v3.5.0 (2017-05-24)
+#### Features
+* Karriärguiden visar text på utbildningsinriktning istället för utbildningsnivå när det finns [#306](https://trello.com/c/0EYM7Akw/306)
+* Prestandaoptimeringar av frontend [#458](https://trello.com/c/xupNhGkz/458)
+* Ny design av hjälprutor [#485](https://trello.com/c/s5RXn9Tf/485)
+* När användaren väljer "Välj i lista" så öppnas första listan som default [#470](https://trello.com/c/D4pQXBsb/470)
+* Nytt inmatningsflöde för Asylstatus och AT-UND [#469](https://trello.com/c/8KFYXngi/469)
+
+#### Buggfixar
+* Profil-text på Somaliska fixad [#482](https://trello.com/c/otfbh7fk/482)
+* Samt mindre designfixar [#486](https://trello.com/c/HhCR2SHr/486), [#480](https://trello.com/c/zWCuj5dx/480), [#459](https://trello.com/c/kPzPLoaZ/459) och [#481](https://trello.com/c/DIbcl4F3/481)
 
 ------------
 
