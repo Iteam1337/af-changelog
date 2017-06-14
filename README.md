@@ -16,6 +16,9 @@
 * Icke-Latinska tecken kan inte längre sparas i Personuppgifter när man kör Wizard [#478](https://trello.com/c/HSyDle9x/478)
 * Google Analytics är tillagt, med tracking på sidbyten (stöd finns även för att tracka clicks och andra events) [#370](https://trello.com/c/MmF5A0oD/370)
 
+### API v3.1.4 (2017-06-09)
+* Fixar filtrering på Examen i Sökgränssnittet [#418](https://trello.com/c/egP2S3K9/418)
+
 ### API v3.1.3 (2017-05-24)
 * Visar/Skickar korrekt informationstext från Utbildning och Utbildningsnivå [#306](https://trello.com/c/0EYM7Akw/306)
 
