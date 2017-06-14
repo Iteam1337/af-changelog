@@ -2,6 +2,15 @@
 
 ## På test
 
+### Inmatningsgränssnitt v3.6.0 (2017-06-14)
+* Årsinmatning återställt till endast ett inmatningsfält [#369](https://trello.com/c/xClCCuus/369)
+* Google Analytics konfigurerat för att tracka fler events [#510](https://trello.com/c/gMqaLUxz/510)
+* Användare loggas ut när deras Token/Cookie har gått ut [#505](https://trello.com/c/UjjNn0Bt/505)
+* Man kan nu välja Grupp på Yrke, Karriärönskemål och Kompetenser [#527](https://trello.com/c/C17TIBE5/527)
+* Nytt flöde för asyl och AT-UND inmatning [#469](https://trello.com/c/8KFYXngi/469)
+* Studieinriktningar sorteras i alfabetisk ordning [#498](https://trello.com/c/WNmMmoQS/498)
+* Man kan bara lägga till varje språk en gång bland Språkkunskaper [#476](https://trello.com/c/gQB4cxka/476)
+
 ### Inmatningsgränssnitt v3.5.1 (2017-05-24)
 * Tvingande fält är tillagda i Personuppgifter och markerade med röd asterisk [#450](https://trello.com/c/eOERx5RI/450)
 * Icke-Latinska tecken kan inte längre sparas i Personuppgifter när man kör Wizard [#478](https://trello.com/c/HSyDle9x/478)
