@@ -16,6 +16,21 @@
 * Icke-Latinska tecken kan inte längre sparas i Personuppgifter när man kör Wizard [#478](https://trello.com/c/HSyDle9x/478)
 * Google Analytics är tillagt, med tracking på sidbyten (stöd finns även för att tracka clicks och andra events) [#370](https://trello.com/c/MmF5A0oD/370)
 
+### Sökgränssnitt v3.0.0 (2017-06-15)
+#### Breaking Changes
+* Visa uppfyllda och ej uppfyllda kriterier i sökresultaten [#463](https://trello.com/c/xo2Tf1Em/463). Kräver API v4.0.0
+
+#### Features & Bug fixes
+* Hantering av tom data [#523](https://trello.com/c/cOYDOw7h/523)
+* Namnet på personen sätts på tabben när man öppnat ny tab med profil [#521](https://trello.com/c/6V3mLz1Y/521)
+* Utloggning leder nu till `/` istället för att loopa nonstop [#444](https://trello.com/c/wxphWdt2/444)
+* Feedback-formulär tillaggt [#515](https://trello.com/c/poNAHHGX/515)
+* Sökningar fördröjda med 1 sekund för att förhindra "sönderhackade" sökningar [#449](https://trello.com/c/MYSiIDed/449)
+* Info om anställning av Asylsökande, AT-UND m.m. tillagt på Profil-sidan [#479](https://trello.com/c/kQ7xs0LI/479)
+
+### API v4.0.0 (2017-06-15)
+Now admin search results return not just names of filters that were met, but instead all filters with a flag isMatch [#463](https://trello.com/c/xo2Tf1Em/463)
+
 ### API v3.1.4 (2017-06-09)
 * Fixar filtrering på Examen i Sökgränssnittet [#418](https://trello.com/c/egP2S3K9/418)
 
