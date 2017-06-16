@@ -2,6 +2,10 @@
 
 ## På test
 
+### Sökgränssnitt v3.0.2 (2017-06-16)
+* Råkade hoppa direkt till v3.0.2 ist för v3.0.1. så versionsnumret är korrekt angivet här, det finns ingen v3.0.1.
+* Lagt till kontroll för när namn saknas hos användare i sökresultat så att det ska stå "Ej angivet" istället för "null null".
+
 ### Inmatningsgränssnitt v3.6.0 (2017-06-14)
 * Årsinmatning återställt till endast ett inmatningsfält [#369](https://trello.com/c/xClCCuus/369)
 * Google Analytics konfigurerat för att tracka fler events [#510](https://trello.com/c/gMqaLUxz/510)
