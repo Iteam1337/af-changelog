@@ -2,10 +2,6 @@
 
 ## På test
 
-### Sökgränssnitt v3.0.2 (2017-06-16)
-* Råkade hoppa direkt till v3.0.2 ist för v3.0.1. så versionsnumret är korrekt angivet här, det finns ingen v3.0.1.
-* Lagt till kontroll för när namn saknas hos användare i sökresultat så att det ska stå "Ej angivet" istället för "null null".
-
 ### Inmatningsgränssnitt v3.6.0 (2017-06-14)
 * Årsinmatning återställt till endast ett inmatningsfält [#369](https://trello.com/c/xClCCuus/369)
 * Google Analytics konfigurerat för att tracka fler events [#510](https://trello.com/c/gMqaLUxz/510)
@@ -15,12 +11,15 @@
 * Studieinriktningar sorteras i alfabetisk ordning [#498](https://trello.com/c/WNmMmoQS/498)
 * Man kan bara lägga till varje språk en gång bland Språkkunskaper [#476](https://trello.com/c/gQB4cxka/476)
 
-### Inmatningsgränssnitt v3.5.1 (2017-05-24)
-* Tvingande fält är tillagda i Personuppgifter och markerade med röd asterisk [#450](https://trello.com/c/eOERx5RI/450)
-* Icke-Latinska tecken kan inte längre sparas i Personuppgifter när man kör Wizard [#478](https://trello.com/c/HSyDle9x/478)
-* Google Analytics är tillagt, med tracking på sidbyten (stöd finns även för att tracka clicks och andra events) [#370](https://trello.com/c/MmF5A0oD/370)
+------------
 
-### Sökgränssnitt v3.0.0 (2017-06-15)
+## I produktion
+
+### Sökgränssnitt v3.0.2 (I Test 2017-06-16, I Prod 2017-06-20)
+* Råkade hoppa direkt till v3.0.2 ist för v3.0.1. så versionsnumret är korrekt angivet här, det finns ingen v3.0.1.
+* Lagt till kontroll för när namn saknas hos användare i sökresultat så att det ska stå "Ej angivet" istället för "null null".
+
+### Sökgränssnitt v3.0.0 (I Test 2017-06-15, I Prod 2017-06-20)
 #### Breaking Changes
 * Visa uppfyllda och ej uppfyllda kriterier i sökresultaten [#463](https://trello.com/c/xo2Tf1Em/463). Kräver API v4.0.0
 
@@ -32,16 +31,21 @@
 * Sökningar fördröjda med 1 sekund för att förhindra "sönderhackade" sökningar [#449](https://trello.com/c/MYSiIDed/449)
 * Info om anställning av Asylsökande, AT-UND m.m. tillagt på Profil-sidan [#479](https://trello.com/c/kQ7xs0LI/479)
 
-### API v4.0.0 (2017-06-15)
+### API v4.0.0 (I Test 2017-06-15, I Prod 2017-06-20)
 Now admin search results return not just names of filters that were met, but instead all filters with a flag isMatch [#463](https://trello.com/c/xo2Tf1Em/463)
 
-### API v3.1.4 (2017-06-09)
+### API v3.1.4 (I Test 2017-06-09, I Prod 2017-06-20)
 * Fixar filtrering på Examen i Sökgränssnittet [#418](https://trello.com/c/egP2S3K9/418)
 
-### API v3.1.3 (2017-05-24)
+### API v3.1.3 (I Test 2017-05-24, I Prod 2017-06-20)
 * Visar/Skickar korrekt informationstext från Utbildning och Utbildningsnivå [#306](https://trello.com/c/0EYM7Akw/306)
 
-### Inmatningsgränssnitt v3.5.0 (2017-05-24)
+### Inmatningsgränssnitt v3.5.1 (I Test 2017-05-24, I Prod 2017-06-20)
+* Tvingande fält är tillagda i Personuppgifter och markerade med röd asterisk [#450](https://trello.com/c/eOERx5RI/450)
+* Icke-Latinska tecken kan inte längre sparas i Personuppgifter när man kör Wizard [#478](https://trello.com/c/HSyDle9x/478)
+* Google Analytics är tillagt, med tracking på sidbyten (stöd finns även för att tracka clicks och andra events) [#370](https://trello.com/c/MmF5A0oD/370)
+
+### Inmatningsgränssnitt v3.5.0 (I Test 2017-05-24, I Prod 2017-06-20)
 #### Features
 * Karriärguiden visar text på utbildningsinriktning istället för utbildningsnivå när det finns [#306](https://trello.com/c/0EYM7Akw/306)
 * Prestandaoptimeringar av frontend [#458](https://trello.com/c/xupNhGkz/458)
@@ -52,10 +56,6 @@ Now admin search results return not just names of filters that were met, but ins
 #### Buggfixar
 * Profil-text på Somaliska fixad [#482](https://trello.com/c/otfbh7fk/482)
 * Samt mindre designfixar [#486](https://trello.com/c/HhCR2SHr/486), [#480](https://trello.com/c/zWCuj5dx/480), [#459](https://trello.com/c/kPzPLoaZ/459) och [#481](https://trello.com/c/DIbcl4F3/481)
-
-------------
-
-## I produktion
 
 ### Sökgränssnitt v2.0.3 (2017-05-23)
 * Anpassat sök-gränssnittet för att fungera med olika skärmstorlekar [#454](https://trello.com/c/wymUdXKa/454)
