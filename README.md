@@ -2,7 +2,7 @@
 
 ## På test
 
-### Sökgrönssnitt v3.0.3 (I Test 2017-06-20)
+### Sökgränssnitt v3.0.3 (I Test 2017-06-20)
 * Lathund tillaggd i footern [#528](https://trello.com/c/ben0J3OM/528)
 * Rättat ordningen på infon för arbetsförmedlare/arbetsgivare [#535](https://trello.com/c/XD3Hlv42/535)
 
