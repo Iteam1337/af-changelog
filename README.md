@@ -2,6 +2,11 @@
 
 ## På test
 
+
+------------
+
+## I produktion
+
 ### Inmatningsgränssnitt v3.6.1 (2017-06-20)
 * Hotfix: Hanterar `null`-värde i email när man loggar in med sociala medier, vilket förhindrade dessa användare från att redigera sin profil i v3.6.0 [#541](https://trello.com/c/XScwaRiA/541)
 
@@ -13,10 +18,6 @@
 * Nytt flöde för asyl och AT-UND inmatning [#469](https://trello.com/c/8KFYXngi/469)
 * Studieinriktningar sorteras i alfabetisk ordning [#498](https://trello.com/c/WNmMmoQS/498)
 * Man kan bara lägga till varje språk en gång bland Språkkunskaper [#476](https://trello.com/c/gQB4cxka/476)
-
-------------
-
-## I produktion
 
 ### Sökgränssnitt v3.0.2 (I Test 2017-06-16, I Prod 2017-06-20)
 * Råkade hoppa direkt till v3.0.2 ist för v3.0.1. så versionsnumret är korrekt angivet här, det finns ingen v3.0.1.
