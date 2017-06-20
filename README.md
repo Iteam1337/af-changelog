@@ -2,6 +2,9 @@
 
 ## På test
 
+### Inmatningsgränssnitt v3.6.1 (2017-06-20)
+* Hotfix: Hanterar `null`-värde i email när man loggar in med sociala medier, vilket förhindrade dessa användare från att redigera sin profil i v3.6.0 [#541](https://trello.com/c/XScwaRiA/541)
+
 ### Inmatningsgränssnitt v3.6.0 (2017-06-14)
 * Årsinmatning återställt till endast ett inmatningsfält [#369](https://trello.com/c/xClCCuus/369)
 * Google Analytics konfigurerat för att tracka fler events [#510](https://trello.com/c/gMqaLUxz/510)
