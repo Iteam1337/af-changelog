@@ -2,6 +2,11 @@
 
 ## På test
 
+### Sökgränssnitt v3.0.5 (I Test 2017-06-22)
+* Labels tillagda för personuppgifter på profiler [#550](https://trello.com/c/ndmTXbNA/550)
+* Uppdaterat till lathund v1.2. Öppnas i ny flik när man klickar på den. [#528](https://trello.com/c/ben0J3OM/528)
+* (Valfri) i rubriken på nivå 3 av sök på Yrke och Karriärönskemål [#560](https://trello.com/c/jPtUrsr0/560) 
+
 ### Sökgränssnitt v3.0.4 (I Test 2017-06-21)
 * Laddat upp senaste versionen av lathunden, och fixat länken från Profil-sidan [#528](https://trello.com/c/ben0J3OM/528)
 
