@@ -2,17 +2,7 @@
 
 ## På test
 
-### Sökgränssnitt v3.0.5 (I Test 2017-06-22)
-* Labels tillagda för personuppgifter på profiler [#550](https://trello.com/c/ndmTXbNA/550)
-* Uppdaterat till lathund v1.2. Öppnas i ny flik när man klickar på den. [#528](https://trello.com/c/ben0J3OM/528)
-* (Valfri) i rubriken på nivå 3 av sök på Yrke och Karriärönskemål [#560](https://trello.com/c/jPtUrsr0/560) 
 
-### Sökgränssnitt v3.0.4 (I Test 2017-06-21)
-* Laddat upp senaste versionen av lathunden, och fixat länken från Profil-sidan [#528](https://trello.com/c/ben0J3OM/528)
-
-### Sökgränssnitt v3.0.3 (I Test 2017-06-20)
-* Lathund tillaggd i footern [#528](https://trello.com/c/ben0J3OM/528)
-* Rättat ordningen på infon för arbetsförmedlare/arbetsgivare [#535](https://trello.com/c/XD3Hlv42/535)
 
 ------------
 
@@ -29,6 +19,18 @@
 * Nytt flöde för asyl och AT-UND inmatning [#469](https://trello.com/c/8KFYXngi/469)
 * Studieinriktningar sorteras i alfabetisk ordning [#498](https://trello.com/c/WNmMmoQS/498)
 * Man kan bara lägga till varje språk en gång bland Språkkunskaper [#476](https://trello.com/c/gQB4cxka/476)
+
+### Sökgränssnitt v3.0.5 (I Test & Prod 2017-06-22)
+* Labels tillagda för personuppgifter på profiler [#550](https://trello.com/c/ndmTXbNA/550)
+* Uppdaterat till lathund v1.2. Öppnas i ny flik när man klickar på den. [#528](https://trello.com/c/ben0J3OM/528)
+* (Valfri) i rubriken på nivå 3 av sök på Yrke och Karriärönskemål [#560](https://trello.com/c/jPtUrsr0/560) 
+
+### Sökgränssnitt v3.0.4 (I Test 2017-06-21, I Prod 2017-06-22)
+* Laddat upp senaste versionen av lathunden, och fixat länken från Profil-sidan [#528](https://trello.com/c/ben0J3OM/528)
+
+### Sökgränssnitt v3.0.3 (I Test 2017-06-20, I Prod 2017-06-22)
+* Lathund tillaggd i footern [#528](https://trello.com/c/ben0J3OM/528)
+* Rättat ordningen på infon för arbetsförmedlare/arbetsgivare [#535](https://trello.com/c/XD3Hlv42/535)
 
 ### Sökgränssnitt v3.0.2 (I Test 2017-06-16, I Prod 2017-06-20)
 * Råkade hoppa direkt till v3.0.2 ist för v3.0.1. så versionsnumret är korrekt angivet här, det finns ingen v3.0.1.
