@@ -2,6 +2,14 @@
 
 ## På test
 
+### Sökgränssnitt v3.1.0 (2017-06-28)
+* Arbetsgivarinloggning till Sök [#403](https://trello.com/c/e1Kbff0U/403)
+* Sidtitel bytt till "Jobskills Sök" [#575](https://trello.com/c/5sdvOmxB/575)
+* Robots.txt tillaggt för Infrastrukturskydd [#100](https://trello.com/c/6JarS5fo/100)
+* Ny introtext på startsidan [#574](https://trello.com/c/Vldw2Uvp/574)
+* Korrigerat positionering av info till arbetsgivare i IE11 [#562](https://trello.com/c/9yR6P58q/562)
+* Logga ut-knappen visas bara när man är inloggad [#566](https://trello.com/c/bDXaWrdr/566)
+
 ### Inmatningsgränssnitt v3.6.2 (2017-06-28)
 * Robots.txt tillagt för Infrastrukturskydd [#100](https://trello.com/c/6JarS5fo/100)
 * Ökad vidd på Publicera-knappens text för att få plats med Somaliska texten [#482](https://trello.com/c/otfbh7fk/482)
