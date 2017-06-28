@@ -2,6 +2,10 @@
 
 ## På test
 
+### API v4.1.0 (2017-06-28)
+* Fixat hasDegree när profiler om-indexeras [#418](https://trello.com/c/egP2S3K9/418) 
+* Kollar roller från nya response-formatet från nya AF IDP [#403](https://trello.com/c/e1Kbff0U/403) 
+
 ### Sökgränssnitt v3.1.0 (2017-06-28)
 * Arbetsgivarinloggning till Sök [#403](https://trello.com/c/e1Kbff0U/403)
 * Sidtitel bytt till "Jobskills Sök" [#575](https://trello.com/c/5sdvOmxB/575)
