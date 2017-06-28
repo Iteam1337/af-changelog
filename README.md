@@ -2,7 +2,17 @@
 
 ## På test
 
-
+### Inmatningsgränssnitt v3.6.2 (2017-06-28)
+* Robots.txt tillagt för Infrastrukturskydd [#100](https://trello.com/c/6JarS5fo/100)
+* Ökad vidd på Publicera-knappens text för att få plats med Somaliska texten [#482](https://trello.com/c/otfbh7fk/482)
+* Asterisk-markering på alla tvingande fält [#549](https://trello.com/c/JLDcxf3H/549)
+* Valfri i rubriken på Nivå 3 på inmatningar [#537](https://trello.com/c/8HT6PG34/537)
+* Email adressen tillaggd på sidan för Glömt lösenord [#212](https://trello.com/c/dFjBSiMu/212)
+* Input-fälten är återställda till hur de var förrut [#494](https://trello.com/c/4gvzRKrV/494) & [#495](https://trello.com/c/W2o2vyRP/495)
+* Email-validering sker i Skicka Profil [#547](https://trello.com/c/Z967IakC/547)
+* Loggning i Frontend med Sentry [#487](https://trello.com/c/Tjfclv5L/487)
+* Kommun kräver inte refresh längre för att uppdateras [#570](https://trello.com/c/ukoHGsAZ/570)
+* Inspectlet tillaggt för användarstudier [#511](https://trello.com/c/VtO6luI3/511)
 
 ------------
 
