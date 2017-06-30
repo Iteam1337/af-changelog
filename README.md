@@ -2,15 +2,19 @@
 
 ## På test
 
+------------
+
+## I produktion
+
 ### API v4.1.0 (2017-06-28)
 * Fixat hasDegree när profiler om-indexeras [#418](https://trello.com/c/egP2S3K9/418) 
 * Kollar roller från nya response-formatet från nya AF IDP [#403](https://trello.com/c/e1Kbff0U/403) 
 
-### Sökgränssnitt v3.1.1 (2017-06-30)
+### Sökgränssnitt v3.1.1 (I Test 2017-06-30, Produktionssatt 2017-06-30)
 * Ny copy på startsidan [#583](https://trello.com/c/bP6qvEWt/583)
 * Styling-fix på profilsidan, mer marginal på labels/ledtexterna [#550](https://trello.com/c/ndmTXbNA/550)
 
-### Sökgränssnitt v3.1.0 (2017-06-28)
+### Sökgränssnitt v3.1.0 (I Test 2017-06-28, Produktionssatt 2017-06-30)
 * Arbetsgivarinloggning till Sök [#403](https://trello.com/c/e1Kbff0U/403)
 * Sidtitel bytt till "Jobskills Sök" [#575](https://trello.com/c/5sdvOmxB/575)
 * Robots.txt tillaggt för Infrastrukturskydd [#100](https://trello.com/c/6JarS5fo/100)
@@ -18,7 +22,7 @@
 * Korrigerat positionering av info till arbetsgivare i IE11 [#562](https://trello.com/c/9yR6P58q/562)
 * Logga ut-knappen visas bara när man är inloggad [#566](https://trello.com/c/bDXaWrdr/566)
 
-### Inmatningsgränssnitt v3.6.2 (2017-06-28)
+### Inmatningsgränssnitt v3.6.2 (I Test 2017-06-28, Produktionssatt 2017-06-30)
 * Robots.txt tillagt för Infrastrukturskydd [#100](https://trello.com/c/6JarS5fo/100)
 * Ökad vidd på Publicera-knappens text för att få plats med Somaliska texten [#482](https://trello.com/c/otfbh7fk/482)
 * Asterisk-markering på alla tvingande fält [#549](https://trello.com/c/JLDcxf3H/549)
@@ -29,10 +33,6 @@
 * Loggning i Frontend med Sentry [#487](https://trello.com/c/Tjfclv5L/487)
 * Kommun kräver inte refresh längre för att uppdateras [#570](https://trello.com/c/ukoHGsAZ/570)
 * Inspectlet tillaggt för användarstudier [#511](https://trello.com/c/VtO6luI3/511)
-
-------------
-
-## I produktion
 
 ### Inmatningsgränssnitt v3.6.1 (2017-06-20)
 * Hotfix: Hanterar `null`-värde i email när man loggar in med sociala medier, vilket förhindrade dessa användare från att redigera sin profil i v3.6.0 [#541](https://trello.com/c/XScwaRiA/541)
