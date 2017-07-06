@@ -26,6 +26,13 @@
 * Fix av födelsedatums-inmatning i IE [#264](https://trello.com/c/E7UxyShB/264)
 * Knapparna för Ladda ner och Skicka CV är disable:ade om man inte tickat i några bilagor [#545](https://trello.com/c/20PhzOMB/545)
 
+### API v4.2.0 (I Test 2017-07-06)
+* Add coordination number to PDF-version of profile [#596](https://trello.com/c/zOjdEm8R/596)
+* Make username case-insensitive and migrate all old users to have lowercased usernames [#174](https://trello.com/c/fki682vj/174)
+* Add route to download PDF-version of profile for specific user [#507](https://trello.com/c/dEdjmPs0/507)
+* Re-order search results based on number of matches [#530](https://trello.com/c/sjFrAoKv/530)
+
+
 ------------
 
 ## I produktion
