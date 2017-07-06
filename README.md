@@ -2,6 +2,20 @@
 
 ## På test
 
+### Inmatningsgränssnitt v3.7.0 (I Test 2017-07-06)
+#### Features
+* Notification bar tillaggd för att visa system- och felmeddelanden på Profilsidan [#589](https://trello.com/c/SknYfbFJ/589)
+* Notifikation när CV mejlats visas på Profilsidan [#584](https://trello.com/c/9FzErK7e/584)
+* Indikator (spinner) visas när man klickat på Skicka CV-knappen [#396](https://trello.com/c/3iemMstK/396)
+* Empty state med hjälptexter tillaggda i Profilöversikten [#465](https://trello.com/c/MR9dJO4F/465)
+* Publiceringspåminnelse visas för de som ej publicerat sina profiler än [#483](https://trello.com/c/9HY2Cn4P/483)
+
+#### Bugfixar
+* Hover på modalers stäng-knapp [#544](https://trello.com/c/1I18HRt0/544)
+* Console-varning när man öppnade Personal Information fixad [#519](https://trello.com/c/MkLVMI3I/519)
+* Fix av födelsedatums-inmatning i IE [#264](https://trello.com/c/E7UxyShB/264)
+* Knapparna för Ladda ner och Skicka CV är disable:ade om man inte tickat i några bilagor [#545](https://trello.com/c/20PhzOMB/545)
+
 ------------
 
 ## I produktion
