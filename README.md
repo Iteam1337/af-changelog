@@ -2,6 +2,16 @@
 
 ## På test
 
+### Sökgränssnitt v3.2.1 (I Test 2017-07-06)
+* Sökanvändare kan ladda ner arbetssökandes CV som PDF [#507](https://trello.com/c/dEdjmPs0/507)
+* Inspectlet är inlaggt för användarvänlighets-studier [#605](https://trello.com/c/JcBc54wA/605)
+* Nya underrubriker under "Sök" på Yrken och Karriärönskemål [#577](https://trello.com/c/aMRU2Feh/577)
+* Tester för att säkerställa att Start-sidan fungerar som den ska efter införandet av arbetsgivarinloggning [#586](https://trello.com/c/Xq8cbm7Q/586)
+* Flyttat upp länken till lathunden till headern i form av ett frågetecken [#599](https://trello.com/c/nFshC69K/599)
+* Snyggat till 403-sidan [#593](https://trello.com/c/QBXhJ07m/593)
+
+**OBS.** Alla ändringarna kom med i v3.2.0, men eftersom Sentry-scriptet inte kördes korrekt så rättades det till och versions-numret patchades upp. 
+
 ### Inmatningsgränssnitt v3.7.0 (I Test 2017-07-06)
 #### Features
 * Notification bar tillaggd för att visa system- och felmeddelanden på Profilsidan [#589](https://trello.com/c/SknYfbFJ/589)
