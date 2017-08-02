@@ -37,6 +37,9 @@
 
 ## I produktion
 
+### API v4.3.0, Inmatningsgränssnitt v3.7.2 & Sökgränssnitt v3.2.4 (2017-07-14)
+* Viktig [säkerhetsuppdatering av Node](https://nodejs.org/en/blog/vulnerability/july-2017-security-releases/).
+
 ### API v4.1.0 (2017-06-28)
 * Fixat hasDegree när profiler om-indexeras [#418](https://trello.com/c/egP2S3K9/418) 
 * Kollar roller från nya response-formatet från nya AF IDP [#403](https://trello.com/c/e1Kbff0U/403) 
