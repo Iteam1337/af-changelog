@@ -12,6 +12,10 @@
 
 **OBS.** Alla ändringarna kom med i v3.2.0, men eftersom Sentry-scriptet inte kördes korrekt så rättades det till och versions-numret patchades upp. 
 
+### Inmatningsgränssnitt v3.7.3 (I Test 2017-08-04)
+#### Hotfix
+* Den nya "empty state"-designen i profilöversikten döljs för de sektioner där erfarenhet/språk/utbildning m.fl. saknas (så att det ser ut som innan). Detta tills vi fått ny copy och översättningar.
+
 ### Inmatningsgränssnitt v3.7.0 (I Test 2017-07-06)
 #### Features
 * Notification bar tillaggd för att visa system- och felmeddelanden på Profilsidan [#589](https://trello.com/c/SknYfbFJ/589)
