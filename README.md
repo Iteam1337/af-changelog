@@ -1,8 +1,13 @@
 # af-changelog
 
-## På test
+## I Test
 
-### Sökgränssnitt v3.2.1 (I Test 2017-07-06)
+
+------------
+
+## I Produktion
+
+### Sökgränssnitt v3.2.1 (I Test 2017-07-06, Produktionssatt 2017-08-07)
 * Sökanvändare kan ladda ner arbetssökandes CV som PDF [#507](https://trello.com/c/dEdjmPs0/507)
 * Inspectlet är inlaggt för användarvänlighets-studier [#605](https://trello.com/c/JcBc54wA/605)
 * Nya underrubriker under "Sök" på Yrken och Karriärönskemål [#577](https://trello.com/c/aMRU2Feh/577)
@@ -12,11 +17,11 @@
 
 **OBS.** Alla ändringarna kom med i v3.2.0, men eftersom Sentry-scriptet inte kördes korrekt så rättades det till och versions-numret patchades upp. 
 
-### Inmatningsgränssnitt v3.7.3 (I Test 2017-08-04)
+### Inmatningsgränssnitt v3.7.3 (I Test 2017-08-04, Produktionssatt 2017-08-07)
 #### Hotfix
 * Den nya "empty state"-designen i profilöversikten döljs för de sektioner där erfarenhet/språk/utbildning m.fl. saknas (så att det ser ut som innan). Detta tills vi fått ny copy och översättningar.
 
-### Inmatningsgränssnitt v3.7.0 (I Test 2017-07-06)
+### Inmatningsgränssnitt v3.7.0 (I Test 2017-07-06, Produktionssatt 2017-08-07)
 #### Features
 * Notification bar tillaggd för att visa system- och felmeddelanden på Profilsidan [#589](https://trello.com/c/SknYfbFJ/589)
 * Notifikation när CV mejlats visas på Profilsidan [#584](https://trello.com/c/9FzErK7e/584)
@@ -30,16 +35,11 @@
 * Fix av födelsedatums-inmatning i IE [#264](https://trello.com/c/E7UxyShB/264)
 * Knapparna för Ladda ner och Skicka CV är disable:ade om man inte tickat i några bilagor [#545](https://trello.com/c/20PhzOMB/545)
 
-### API v4.2.0 (I Test 2017-07-06)
+### API v4.2.0 (I Test 2017-07-06, Produktionssatt 2017-08-07)
 * Add coordination number to PDF-version of profile [#596](https://trello.com/c/zOjdEm8R/596)
 * Make username case-insensitive and migrate all old users to have lowercased usernames [#174](https://trello.com/c/fki682vj/174)
 * Add route to download PDF-version of profile for specific user [#507](https://trello.com/c/dEdjmPs0/507)
 * Re-order search results based on number of matches [#530](https://trello.com/c/sjFrAoKv/530)
-
-
-------------
-
-## I produktion
 
 ### API v4.3.0, Inmatningsgränssnitt v3.7.2 & Sökgränssnitt v3.2.4 (2017-07-14)
 * Viktig [säkerhetsuppdatering av Node](https://nodejs.org/en/blog/vulnerability/july-2017-security-releases/).
