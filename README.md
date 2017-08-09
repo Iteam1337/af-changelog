@@ -2,6 +2,13 @@
 
 ## I Test
 
+### Inmatningsgränssnitt v3.8.0 (I Test 2017-08-09)
+* Vänsterställning av email- och lösenordsfält i RTL-språk [#604](https://trello.com/c/5NxcPUfs/604)
+* Nollställning av årtal på yrkeserfarenhet [#601](https://trello.com/c/enMBIzp1/601)
+* Rendering av radioknappar i IE11 [#618](https://trello.com/c/t7NhUeY6/618)
+* Sök från lista i Yrkeserfarenheter och Kompetenser fixat i IE11 [#619](https://trello.com/c/Y36HV6o2/619)
+* Indikator visas medan email skickas med CV [#396](https://trello.com/c/3iemMstK/396)
+* Användaren loggas ut när sessionstiden gått ut, eller om token tas bort [#409](https://trello.com/c/5cfy34ix/409)
 
 ------------
 
