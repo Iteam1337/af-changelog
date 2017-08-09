@@ -1,6 +1,14 @@
 # af-changelog
 
 ## I Test
+### API v4.4.0 (I Test 2017-08-09)
+* Stöd för sökning på flera kommuner. [#580](https://trello.com/c/692yUaTL/580)
+* Omindexering av profiler tar bort avpublicerade profiler ur indexet. [#636](https://trello.com/c/2tvyHPaW/636)
+* Sentry används för loggning av fel. [#606](https://trello.com/c/fmKJRGgJ/606)
+* Förbättrad loggning av fel vid skickade av e-post. [#446](https://trello.com/c/8TefxoIt/446)
+* Marknadsområden läggs in i databasen för användning för statistik. [#565](https://trello.com/c/dUd7E9aY/565)
+* Bugfixar
+
 ### Sökgränssnitt v3.3.0 (I Test 2017-08-09)
 * Man kan nu söka på flera kommuner samtidigt [#580](https://trello.com/c/692yUaTL/580)
 * Räknaren som visar antal sökresultat är tillbaka [#630](https://trello.com/c/7hkaadAD/630)
