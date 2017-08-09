@@ -1,6 +1,12 @@
 # af-changelog
 
 ## I Test
+### Sökgränssnitt v3.3.0 (I Test 2017-08-09)
+* Man kan nu söka på flera kommuner samtidigt [#580](https://trello.com/c/692yUaTL/580)
+* Räknaren som visar antal sökresultat är tillbaka [#630](https://trello.com/c/7hkaadAD/630)
+* Man kan nu söka på hela mailadresser i IE11 [#551](https://trello.com/c/yA6tfEgS/551)
+* Fixat ordningen/positionering av introtext på Profilsidan [#557](https://trello.com/c/uGQ4s6ft/557)
+
 
 ### Inmatningsgränssnitt v3.8.0 (I Test 2017-08-09)
 * Vänsterställning av email- och lösenordsfält i RTL-språk [#604](https://trello.com/c/5NxcPUfs/604)
@@ -9,6 +15,7 @@
 * Sök från lista i Yrkeserfarenheter och Kompetenser fixat i IE11 [#619](https://trello.com/c/Y36HV6o2/619)
 * Indikator visas medan email skickas med CV [#396](https://trello.com/c/3iemMstK/396)
 * Användaren loggas ut när sessionstiden gått ut, eller om token tas bort [#409](https://trello.com/c/5cfy34ix/409)
+* Fixat bugg där man automatiskt slussades vidare direkt till Login-sidan istället för Start-sidan [#626](https://trello.com/c/jHuYTNh7/626)
 
 ------------
 
