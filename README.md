@@ -15,6 +15,8 @@
 * Man kan nu söka på hela mailadresser i IE11 [#551](https://trello.com/c/yA6tfEgS/551)
 * Fixat ordningen/positionering av introtext på Profilsidan [#557](https://trello.com/c/uGQ4s6ft/557)
 
+### Inmatningsgränssnitt v3.8.1 (I Test 2017-08-14)
+* Tagit bort meddelandet på startsidan om att IE11 inte stöds
 
 ### Inmatningsgränssnitt v3.8.0 (I Test 2017-08-09)
 * Vänsterställning av email- och lösenordsfält i RTL-språk [#604](https://trello.com/c/5NxcPUfs/604)
