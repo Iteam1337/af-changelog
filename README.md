@@ -1,6 +1,12 @@
 # af-changelog
 
 ## I Test
+
+
+------------
+
+## I Produktion
+
 ### API v4.4.0 (I Test 2017-08-09)
 * Stöd för sökning på flera kommuner. [#580](https://trello.com/c/692yUaTL/580)
 * Omindexering av profiler tar bort avpublicerade profiler ur indexet. [#636](https://trello.com/c/2tvyHPaW/636)
@@ -26,10 +32,6 @@
 * Indikator visas medan email skickas med CV [#396](https://trello.com/c/3iemMstK/396)
 * Användaren loggas ut när sessionstiden gått ut, eller om token tas bort [#409](https://trello.com/c/5cfy34ix/409)
 * Fixat bugg där man automatiskt slussades vidare direkt till Login-sidan istället för Start-sidan [#626](https://trello.com/c/jHuYTNh7/626)
-
-------------
-
-## I Produktion
 
 ### Sökgränssnitt v3.2.1 (I Test 2017-07-06, Produktionssatt 2017-08-07)
 * Sökanvändare kan ladda ner arbetssökandes CV som PDF [#507](https://trello.com/c/dEdjmPs0/507)
