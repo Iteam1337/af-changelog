@@ -1,13 +1,16 @@
 # af-changelog
 
 ## I Test
-
+### API v4.5.0 (I Test 2017-08-22)
+* Releasen fixar buggen med att användare skapade med Facebook saknar epost, eftersom numera hämtar vi den som är registrerad för användaren i Facebook. [#667](https://trello.com/c/bNM1YTEX/667)
+* Vi skapar även admin-användare första gången admin-inloggningen används. Nästa gång inloggningen sker hämtas den tidigare skapade användaren. [#673](https://trello.com/c/mgekxALf/673)
+* Detta är också ett första steg i att spara sökningar och email-utskick.
 
 ------------
 
 ## I Produktion
 
-### API v4.4.0 (I Test 2017-08-09)
+### API v4.4.0 (I Test 2017-08-09, Produktionssatt 2017-08-14)
 * Stöd för sökning på flera kommuner. [#580](https://trello.com/c/692yUaTL/580)
 * Omindexering av profiler tar bort avpublicerade profiler ur indexet. [#636](https://trello.com/c/2tvyHPaW/636)
 * Sentry används för loggning av fel. [#606](https://trello.com/c/fmKJRGgJ/606)
@@ -15,16 +18,16 @@
 * Marknadsområden läggs in i databasen för användning för statistik. [#565](https://trello.com/c/dUd7E9aY/565)
 * Bugfixar
 
-### Sökgränssnitt v3.3.0 (I Test 2017-08-09)
+### Sökgränssnitt v3.3.0 (I Test 2017-08-09, Produktionssatt 2017-08-14)
 * Man kan nu söka på flera kommuner samtidigt [#580](https://trello.com/c/692yUaTL/580)
 * Räknaren som visar antal sökresultat är tillbaka [#630](https://trello.com/c/7hkaadAD/630)
 * Man kan nu söka på hela mailadresser i IE11 [#551](https://trello.com/c/yA6tfEgS/551)
 * Fixat ordningen/positionering av introtext på Profilsidan [#557](https://trello.com/c/uGQ4s6ft/557)
 
-### Inmatningsgränssnitt v3.8.1 (I Test 2017-08-14)
+### Inmatningsgränssnitt v3.8.1 (I Test 2017-08-14, Produktionssatt 2017-08-14)
 * Tagit bort meddelandet på startsidan om att IE11 inte stöds
 
-### Inmatningsgränssnitt v3.8.0 (I Test 2017-08-09)
+### Inmatningsgränssnitt v3.8.0 (I Test 2017-08-09, Produktionssatt 2017-08-14)
 * Vänsterställning av email- och lösenordsfält i RTL-språk [#604](https://trello.com/c/5NxcPUfs/604)
 * Nollställning av årtal på yrkeserfarenhet [#601](https://trello.com/c/enMBIzp1/601)
 * Rendering av radioknappar i IE11 [#618](https://trello.com/c/t7NhUeY6/618)
