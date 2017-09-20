@@ -1,6 +1,63 @@
 # af-changelog
 
 ## I Test
+
+### Sökgränssnitt v3.4.0 (I Test 2017-09-22)
+#### Features och fixar:
+- Man kan nu skicka mail från Jobskills Admin [#484](https://trello.com/c/io5SRdRj/484)
+- Uppdaterad sortering av sökresultat [#556](https://trello.com/c/H9uO5sW4/556)
+- Lathunden har uppdaterats till v2.0 [#799](https://trello.com/c/KIq4Rw2b/799)
+- Navigation-bar [#640](https://trello.com/c/T3Q4at9u/640)
+
+#### Följande större features och fixar har gjorts i samband med mailutskick:
+
+  - HTML-editor för att skriva mailutskick [#748](https://trello.com/c/LW8uF4vX/748)
+  - Kunna ta bort mailutkast [#754](https://trello.com/c/pTIBhf9B/754)
+  - Utskick-sida med översikt av sina utkast och skickade mail [#744](https://trello.com/c/rhgnS4zp/744)
+  - Kontroller har lagts till så att bara behöriga kan se och göra mailutskick [#806](https://trello.com/c/0KKpmxIy/806), [#747](https://trello.com/c/sagBMjcv/747)
+
+#### Samt dessa som uppstått och fixats under utveckling, som rör mailutskick:
+
+  - `Spara Utkast`-knappen stänger och öppnar modalen igen [#807](https://trello.com/c/JJInzXVV/807)
+  - Länkinmatningen har fixerats längst ner i email-inmatningsfältet för att alltid vara åtkomstbar [#813](https://trello.com/c/zAN9P2MY/813)
+  - Emal-inimatningsfältet laddar in rätt texter när man öppnar ett utkast [#769](https://trello.com/c/N1Y9LT3i/769)
+  - Fixat bugg där det inte gick att öppna ett utkast igen efter att man stängt det [#771](https://trello.com/c/PebxlVsK/771)
+  - Endast behöriga kan se knappen för att göra mailutskick [#760](https://trello.com/c/ftz6EkUB/760)
+  - Skicka och Spara Utkast-knapparna är disabled (dvs går inte att klicka på) medan mail sparas/skickas [#815](https://trello.com/c/jXJeYE4Q/815), [#816](https://trello.com/c/ogU7CTlj/816)
+  - Fixat bugg där språket laggade efter i Ämnesraden [#763](https://trello.com/c/uSucITsM/763)
+  - Gjort utskick modalen scrollbar för att rymma allt på mindre skärmar [#780](https://trello.com/c/gXYne2Qd/780)
+  - Skicka knappen disable:as när innehåll saknas på något av de krävda språken [#751](https://trello.com/c/YyGb8gUa/751)
+  - Fix där utkast listan inte visades alls när man sökt på asylstatus, AT-UND [#777](https://trello.com/c/RTQ303Uo/777)
+  - Gjort alla sökkriterier till blåa "taggar" på utskicks-sidan och i modalerna [#756](https://trello.com/c/DjI95DNG/756)
+  - Ämnesraden och mail-innehållet töms på Alla språk när man stänger utkast-modalen på sök-sidan, för att förhindra att man inte råkar glömma kvar oönskat innehåll i något språk efter en ny sökning [#793](https://trello.com/c/mh8v166U/793) & [#817](https://trello.com/c/RRzIklre/817)
+  - Fix av bugg där man tidigare matchade mot alla kandidater när man gått tillbaka till sök-sidan från utskick [#778](https://trello.com/c/YfExAtNq/778)
+  - Det går att välja om man vill skicka på enskilda språk (matchade mot valda användares språk), eller om man ska defaulta till Svenska och Engelska [#758](https://trello.com/c/gNNw0T5r/758)
+  - Hantering av RTL-språk i email-inmatningsfälten [#752](https://trello.com/c/R5eyeImw/752)
+  - Fix där utskicks-sidan var helt tom efter att mail skickats [#759](https://trello.com/c/BKbfiG9L/759)
+  - Borttagna utkast försvinner (nästan) direkt från utkast-listan [#775](https://trello.com/c/ZUd36L1g/775)
+  - samt dessa [#802](https://trello.com/c/0mH7kKCI/802), [#800](https://trello.com/c/ME3Ehi1R/800), [#776](https://trello.com/c/dGMkT7uL/776), [#761](https://trello.com/c/BgedOFpZ/761), [#770](https://trello.com/c/qj4XZHYQ/770), [#764](https://trello.com/c/O2Rr9Zqx/764), [#784](https://trello.com/c/kRvmase4/784), [#814](https://trello.com/c/VZQSPZTC/814), [#755](https://trello.com/c/AxsYWCRI/755), [#753](https://trello.com/c/fXOGxqZ0/753)
+
+### Inmatningsgränssnitt v3.9.0 (I Test 2017-09-22)
+- **Nyheter på startsidan** [#502](https://trello.com/c/iu8IaWNo/502)
+- Fixat bugg där det inte gick att redigera i Arbetslivserfarenhet [#582](https://trello.com/c/pEAYoJNt/582)
+- Ny design för checkboxar och radioknappar [#642](https://trello.com/c/GYi4aM0B/642)
+
+Samt följande mindre fixar:
+- Lagt till `Logga In`-knapp på Nyhets- och Nyhetsöversikts-sidorna [#805](https://trello.com/c/lnDo8DUm/805)
+- Tagit bort felmeddelande vid för kort lösenord på Login-sidan [#700](https://trello.com/c/YYvwyLFc/700)
+- Gjort om Kön till radiobuttons [#647](https://trello.com/c/6GKwjbRL/647)
+- Uppdaterat copyn på `/unavailable`-sidan [#614](https://trello.com/c/n9o9UbxK/614)
+- Ny look på Publicera-profil-knappen [#482](https://trello.com/c/otfbh7fk/482)
+- Ta med "Text för nyanlända" från yrkesgrupper, yrkesbenämningar och kompetenser till Karriärguiden [#670](https://trello.com/c/ZKZADTHw/670)
+
+### API v4.6.0 (I Test 2017-09-20)
+- Funktionalitet för att spara utskick [#655](https://trello.com/c/ja2TQsK4/655), skicka mail [#653](https://trello.com/c/LaG3PNql/653) , ta bort mailutkast [#694](https://trello.com/c/4ML4HPJJ/694), uppdatera utkast [#704](https://trello.com/c/h38PcOvA/704), ladda in alla utskick [#656](https://trello.com/c/jtW7u69t/656)
+- Sökningar sparas (för att kunna användas senare när man ska göra mailutskick) [#674](https://trello.com/c/Ep5h5Y4P/674)
+-Ändrat vilka personer som får vissa behörigheter [#803](https://trello.com/c/XLnJfcB4/803) & [#820](https://trello.com/c/YsCCPRp5/820)
+- Tabeller och migrationer för att mappa mellan sökningar, utskick, användare m.m. [#654](https://trello.com/c/ucU2slxP/654) & [#686](https://trello.com/c/DhsBl07c/686)
+- Lagt till autentisering för system-routes [#708](https://trello.com/c/jvQ7pWLr/708)
+- Förbättrad sortering av sökresultat [#556](https://trello.com/c/H9uO5sW4/556)
+
 ### API v4.5.0 (I Test 2017-08-22)
 * Releasen fixar buggen med att användare skapade med Facebook saknar epost, eftersom numera hämtar vi den som är registrerad för användaren i Facebook. [#667](https://trello.com/c/bNM1YTEX/667)
 * Vi skapar även admin-användare första gången admin-inloggningen används. Nästa gång inloggningen sker hämtas den tidigare skapade användaren. [#673](https://trello.com/c/mgekxALf/673)
