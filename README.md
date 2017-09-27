@@ -1,6 +1,11 @@
 # af-changelog
 
 ## I Test
+### Sökgränssnitt v3.4.1 (I Test 2017-09-27)
+- Knappen `E-post-utskick` döljer inte längre antalet matchande kandidater i IE11 [#825](https://trello.com/c/dBPhDnkm/825)
+- Fix av språk-flikarna [#827](https://trello.com/c/X9zrhBMH/827)
+- Fix där paginerings-läknarna inte hamnar över sökresultat, samt att bara ett begränsat antal visas när det finns många sökresultat [#749](https://trello.com/c/GkE0y1uN/749)
+
 ### Inmatningsgränssnitt v3.9.1 (I Test 2017-09-27)
 - Fix av diverse IE11 buggar [#831](https://trello.com/c/fzec4eq2/831)
 - Frågetecknet för samordningsnumret har flyttats [#644](https://trello.com/c/QdaBtORO/644)
