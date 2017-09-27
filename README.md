@@ -1,6 +1,14 @@
 # af-changelog
 
 ## I Test
+### API v4.7.1 (I Test 2017-09-27)
+- För att få till checkboxen för valet `Jag har ett samordningsnummer` har det möjliggjorts att spara `null`-värden på användare i API:et [#853](https://trello.com/c/V7tZz8tC/853)
+### API v4.7.0 (I Test 2017-09-27)
+- Svensk body tillaggt på alla massutskick [#842](https://trello.com/c/ov4gt1YL/842)
+- Ny kolumn skapad i databasen för `has_coordination_number` för att möjliggöra att man ska kunna klicka i checkboxen utan att behöva fylla i ett samordningsnummer [#848](https://trello.com/c/IXOvgEFH/848)
+- User-queryn i GraphQL returnerar nu `email_opt_out` så att gränssnittet kan se om man vill få mailutskick eller ej [#851](https://trello.com/c/UavAVKQ2/851)
+- Fix av behörigheter som möjliggör att skicka sitt CV per mail igen [#846](https://trello.com/c/gTLf08YJ/846)
+
 ### Sökgränssnitt v3.4.1 (I Test 2017-09-27)
 - Knappen `E-post-utskick` döljer inte längre antalet matchande kandidater i IE11 [#825](https://trello.com/c/dBPhDnkm/825)
 - Fix av språk-flikarna [#827](https://trello.com/c/X9zrhBMH/827)
