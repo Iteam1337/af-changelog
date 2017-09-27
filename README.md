@@ -1,6 +1,16 @@
 # af-changelog
 
 ## I Test
+### Inmatningsgränssnitt v3.9.1 (I Test 2017-09-27)
+- Fix av diverse IE11 buggar [#831](https://trello.com/c/fzec4eq2/831)
+- Frågetecknet för samordningsnumret har flyttats [#644](https://trello.com/c/QdaBtORO/644)
+- Sidan som visas när tjänsten inte kan nås visar texterna på rätt språk [#614](https://trello.com/c/n9o9UbxK/614)
+- När man försöker mejla sitt CV stängs modalen oavsett om det lyckas eller ej (det hamnar därmed inte under modalen som innan) [#829](https://trello.com/c/RbplowLw/829)
+- Fix av Publicera-knappen där det kunde se ut som att man var publicerad och opublicerad samtidigt [#847](https://trello.com/c/adj8W0ba/847) & [#839](https://trello.com/c/iuP8Zu46/839)
+- Ändrat ordning så att `Sök från lista` är default istället för fritext `Sök` [#838](https://trello.com/c/MaQtdKVo/838)
+- Nyhets-kolumnen döljs när det inte finns några [#821](https://trello.com/c/EJVrLlvu/821)
+- Kompetenser läses in på nivå 3 [#380](https://trello.com/c/Hq2V30el/380)
+- En massa styling-fixar [#808](https://trello.com/c/qdhL3y9L/808) & [#844](https://trello.com/c/8t68MKQR/844)
 
 ### Sökgränssnitt v3.4.0 (I Test 2017-09-22)
 #### Features och fixar:
