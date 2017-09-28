@@ -1,25 +1,35 @@
 # af-changelog
 
 ## I Test
-### API v4.7.1 (I Test 2017-09-27)
+
+
+------------
+
+## I Produktion
+
+### API v4.7.1 (I Test 2017-09-27, Produktionssatt 2017-09-28)
 - För att få till checkboxen för valet `Jag har ett samordningsnummer` har det möjliggjorts att spara `null`-värden på användare i API:et [#853](https://trello.com/c/V7tZz8tC/853)
-### API v4.7.0 (I Test 2017-09-27)
+### API v4.7.0 (I Test 2017-09-27, Produktionssatt 2017-09-28)
 - Svensk body tillaggt på alla massutskick [#842](https://trello.com/c/ov4gt1YL/842)
 - Ny kolumn skapad i databasen för `has_coordination_number` för att möjliggöra att man ska kunna klicka i checkboxen utan att behöva fylla i ett samordningsnummer [#848](https://trello.com/c/IXOvgEFH/848)
 - User-queryn i GraphQL returnerar nu `email_opt_out` så att gränssnittet kan se om man vill få mailutskick eller ej [#851](https://trello.com/c/UavAVKQ2/851)
 - Fix av behörigheter som möjliggör att skicka sitt CV per mail igen [#846](https://trello.com/c/gTLf08YJ/846)
 
-### Sökgränssnitt v3.4.1 (I Test 2017-09-27)
+### Sökgränssnitt v3.4.1 (I Test 2017-09-27, Produktionssatt 2017-09-28)
 - Knappen `E-post-utskick` döljer inte längre antalet matchande kandidater i IE11 [#825](https://trello.com/c/dBPhDnkm/825)
 - Fix av språk-flikarna [#827](https://trello.com/c/X9zrhBMH/827)
 - Fix där paginerings-läknarna inte hamnar över sökresultat, samt att bara ett begränsat antal visas när det finns många sökresultat [#749](https://trello.com/c/GkE0y1uN/749)
 
-### Inmatningsgränssnitt v3.9.2 (I Test 2017-09-27)
+### Inmatningsgränssnitt v3.9.3 (I Test 2017-09-28, Produktionssatt 2017-09-28)
+- Lagt tillbaka översta login-knappen på Start-sidan [#854](https://trello.com/c/hwEYRMSW/854)
+- Tagit bort console error som klagar när det inte finns några nyheter
+
+### Inmatningsgränssnitt v3.9.2 (I Test 2017-09-27, Produktionssatt 2017-09-28)
 - `Återställ val`-knapparna tar upp en egen rad även på större mobiler [#844](https://trello.com/c/8t68MKQR/844)
 - Valet `Jag har ett samordningsnummer` sparas [#595](https://trello.com/c/B0bjKNok/595)
 - `Logga in`- och `Registrera`-knapparna är tillbaka i mitten på Start-sidan på RTL-språk [#831](https://trello.com/c/fzec4eq2/831)
 
-### Inmatningsgränssnitt v3.9.1 (I Test 2017-09-27)
+### Inmatningsgränssnitt v3.9.1 (I Test 2017-09-27, Produktionssatt 2017-09-28)
 - Fix av diverse IE11 buggar [#831](https://trello.com/c/fzec4eq2/831)
 - Frågetecknet för samordningsnumret har flyttats [#644](https://trello.com/c/QdaBtORO/644)
 - Sidan som visas när tjänsten inte kan nås visar texterna på rätt språk [#614](https://trello.com/c/n9o9UbxK/614)
@@ -30,7 +40,7 @@
 - Kompetenser läses in på nivå 3 [#380](https://trello.com/c/Hq2V30el/380)
 - En massa styling-fixar [#808](https://trello.com/c/qdhL3y9L/808) & [#844](https://trello.com/c/8t68MKQR/844)
 
-### Sökgränssnitt v3.4.0 (I Test 2017-09-22)
+### Sökgränssnitt v3.4.0 (I Test 2017-09-22, Produktionssatt 2017-09-28)
 #### Features och fixar:
 - Man kan nu skicka mail från Jobskills Admin [#484](https://trello.com/c/io5SRdRj/484)
 - Uppdaterad sortering av sökresultat [#556](https://trello.com/c/H9uO5sW4/556)
@@ -65,7 +75,7 @@
   - Borttagna utkast försvinner (nästan) direkt från utkast-listan [#775](https://trello.com/c/ZUd36L1g/775)
   - samt dessa [#802](https://trello.com/c/0mH7kKCI/802), [#800](https://trello.com/c/ME3Ehi1R/800), [#776](https://trello.com/c/dGMkT7uL/776), [#761](https://trello.com/c/BgedOFpZ/761), [#770](https://trello.com/c/qj4XZHYQ/770), [#764](https://trello.com/c/O2Rr9Zqx/764), [#784](https://trello.com/c/kRvmase4/784), [#814](https://trello.com/c/VZQSPZTC/814), [#755](https://trello.com/c/AxsYWCRI/755), [#753](https://trello.com/c/fXOGxqZ0/753)
 
-### Inmatningsgränssnitt v3.9.0 (I Test 2017-09-22)
+### Inmatningsgränssnitt v3.9.0 (I Test 2017-09-22, Produktionssatt 2017-09-28)
 - **Nyheter på startsidan** [#502](https://trello.com/c/iu8IaWNo/502)
 - Fixat bugg där det inte gick att redigera i Arbetslivserfarenhet [#582](https://trello.com/c/pEAYoJNt/582)
 - Ny design för checkboxar och radioknappar [#642](https://trello.com/c/GYi4aM0B/642)
@@ -78,7 +88,7 @@ Samt följande mindre fixar:
 - Ny look på Publicera-profil-knappen [#482](https://trello.com/c/otfbh7fk/482)
 - Ta med "Text för nyanlända" från yrkesgrupper, yrkesbenämningar och kompetenser till Karriärguiden [#670](https://trello.com/c/ZKZADTHw/670)
 
-### API v4.6.0 (I Test 2017-09-20)
+### API v4.6.0 (I Test 2017-09-20, Produktionssatt 2017-09-28)
 - Funktionalitet för att spara utskick [#655](https://trello.com/c/ja2TQsK4/655), skicka mail [#653](https://trello.com/c/LaG3PNql/653) , ta bort mailutkast [#694](https://trello.com/c/4ML4HPJJ/694), uppdatera utkast [#704](https://trello.com/c/h38PcOvA/704), ladda in alla utskick [#656](https://trello.com/c/jtW7u69t/656)
 - Sökningar sparas (för att kunna användas senare när man ska göra mailutskick) [#674](https://trello.com/c/Ep5h5Y4P/674)
 -Ändrat vilka personer som får vissa behörigheter [#803](https://trello.com/c/XLnJfcB4/803) & [#820](https://trello.com/c/YsCCPRp5/820)
@@ -86,14 +96,10 @@ Samt följande mindre fixar:
 - Lagt till autentisering för system-routes [#708](https://trello.com/c/jvQ7pWLr/708)
 - Förbättrad sortering av sökresultat [#556](https://trello.com/c/H9uO5sW4/556)
 
-### API v4.5.0 (I Test 2017-08-22)
+### API v4.5.0 (I Test 2017-08-22, Produktionssatt 2017-09-28)
 * Releasen fixar buggen med att användare skapade med Facebook saknar epost, eftersom numera hämtar vi den som är registrerad för användaren i Facebook. [#667](https://trello.com/c/bNM1YTEX/667)
 * Vi skapar även admin-användare första gången admin-inloggningen används. Nästa gång inloggningen sker hämtas den tidigare skapade användaren. [#673](https://trello.com/c/mgekxALf/673)
 * Detta är också ett första steg i att spara sökningar och email-utskick.
-
-------------
-
-## I Produktion
 
 ### API v4.4.0 (I Test 2017-08-09, Produktionssatt 2017-08-14)
 * Stöd för sökning på flera kommuner. [#580](https://trello.com/c/692yUaTL/580)
