@@ -2,6 +2,21 @@
 
 ## I Test
 
+### API v4.8.0 (I Test 2017-10-12)
+- Möjliggör visning av uppfyllt/ej uppfyllt på personuppgifter, t.ex. kön, ort, migrationsstatus [#567](https://trello.com/c/RwMpT2h2/567)
+- Sparar om använaden har utbildningsdokument, samt engelska utbildningsdokument [#543](https://trello.com/c/9Hk4sosU/543)
+- Sparar om användare väljer att inte vill ha massutskick [#659](https://trello.com/c/Rpl0HbxS/659)
+- Sökanvändare kan välja att söka på alla som har eller inte har samordningsnummer [#857](https://trello.com/c/JAv3RBjq/857)
+
+### Sökgränssnitt v3.5.0 (I Test 2017-10-12)
+- Man kan söka på kandidater som har utbildningsdokument samt engelska utbildningsdokument [#543](https://trello.com/c/9Hk4sosU/543)
+- Man kan begränsa sin sökning till alla användare som har eller inte har samordningsnummer [#857](https://trello.com/c/JAv3RBjq/857)  
+
+### Inmatningsgränssnitt v3.10.0 (I Test 2017-10-12)
+- Användare kan klicka i att de har samordningsnummer (utan att behöva fylla i själva numret) [#595](https://trello.com/c/B0bjKNok/595)
+- Användare kan fylla i att man har utbildningsdokument samt engelska sådana [#543](https://trello.com/c/9Hk4sosU/543)
+- Användare kan fylla i att man inte vill ha massutskick [#659](https://trello.com/c/Rpl0HbxS/659)
+- Hjälptexter i profilöversikten har lagts till för att underlätta för användaren att förstå vad de ska fylla i och var [#465](https://trello.com/c/MR9dJO4F/465-465-hj%C3%A4lptexter-i-profil%C3%B6versikt-m)
 
 ------------
 
