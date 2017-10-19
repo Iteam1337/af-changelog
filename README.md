@@ -2,6 +2,19 @@
 
 ## I Test
 
+### API v4.8.1 (I test 2017-10-19)
+- Representera kvinna/man korrekt i sökresultat. (https://trello.com/c/Wi5P0KiF/885-frontend-s%C3%B6k-uppfylla-kraven-man-kvinna-del-av-567)
+- Förhindra att autentiserade användare utan roll får någon som helst behörighet i jobskills.se.(https://trello.com/c/PWcGqRVf/889-roller-f%C3%B6r-olika-beh%C3%B6righeter-%C3%A5tkomst-till-s%C3%B6k)
+- Representera samordningsnr korrekt i PDF export (https://trello.com/c/9Asln4C3/886-pdf-och-mail-samordningsnummer-ja-blir-nej-del-av-595)
+- Strikt sökning fungerar nu korrekt för taxonomi-filter (https://trello.com/c/7kV168RF/843-mailutskick-%C3%B6ppen-s%C3%B6kning-eller-exakt-s%C3%B6kning-del-av-484)
+
+### Sökgränssnitt v3.6.0 (I test 2017-10-19)
+- Toggle för öppen/strikt sökning [#843](https://trello.com/c/7kV168RF/843)
+
+### Inmatningsgränssnitt v3.10.1 (I test 2017-10-19)
+- Ignorerar fel för Safaris incognito mode [#892](https://trello.com/c/tfK16Ic4/892-quota-has-been-exceeded)
+- Fixar omvänd logik för checkboxen för email optout. [#891](https://trello.com/c/SnRFU85P/891-emailoptout-rutan-%C3%A4r-ikryssad-n%C3%A4r-den-ska-vara-urkryssad-och-vice-versa)
+
 ### API v4.8.0 (I Test 2017-10-12)
 - Möjliggör visning av uppfyllt/ej uppfyllt på personuppgifter, t.ex. kön, ort, migrationsstatus [#567](https://trello.com/c/RwMpT2h2/567)
 - Sparar om använaden har utbildningsdokument, samt engelska utbildningsdokument [#543](https://trello.com/c/9Hk4sosU/543)
