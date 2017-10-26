@@ -10,6 +10,18 @@
 ### Sökgränssnitt v4.0.0 (I test 2017-10-26)
 - Hanterar den nya taxonomin, med Yrkeskompetenser tillsammans med Yrkesgrupper [#380](https://trello.com/c/Hq2V30el/380)
 
+### API v5.0.1 (I test 2017-10-26)
+- [#380 yrkeskompetenser](https://trello.com/c/Hq2V30el/380-att-ta-med-yrkeskompetenser-under-yrkesgrupper-xl-del-av-390-i-ci-develop)
+- Versionering av urk-version
+- Omskrivna SQL-frågor
+
+Denna release ändrar strukturen för taxonomin.
+Vi använder inte längre taxonomy_work och/eller taxonomy_competences. De är sammanslagna till `taxonomy`.
+
+### API-import v1.0.0 (I test 2017-10-26)
+- [#380 yrkeskompetenser](https://trello.com/c/Hq2V30el/380-att-ta-med-yrkeskompetenser-under-yrkesgrupper-xl-del-av-390-i-ci-develop)
+- Hantera konflikter där `ID` inte är unikt i postgres
+
 ------------
 
 ## I Produktion
