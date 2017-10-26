@@ -2,38 +2,46 @@
 
 ## I Test
 
-### API v4.8.1 (I test 2017-10-19)
+### Inmatningsgränssnitt v4.0.0 (I test 2017-10-26)
+- Hanterar den nya taxonomi-strukturen, med Yrkeskompetenser tillsammans med Yrkesgrupper [#380](https://trello.com/c/Hq2V30el/380)
+- Slutat skicka fel till Sentry när vi utvecklar lokalt [#895](https://trello.com/c/1ZxHNiZ0/895)
+- Fix för checkboxar i RTL-språk [#885](https://trello.com/c/ElfpYxUV/884)
+
+### Sökgränssnitt v4.0.0 (I test 2017-10-26)
+- Hanterar den nya taxonomin, med Yrkeskompetenser tillsammans med Yrkesgrupper [#380](https://trello.com/c/Hq2V30el/380)
+
+------------
+
+## I Produktion
+
+### API v4.8.1 (I test 2017-10-19, Produktionssatt 2017-10-19)
 - Representera kvinna/man korrekt i sökresultat. (https://trello.com/c/Wi5P0KiF/885-frontend-s%C3%B6k-uppfylla-kraven-man-kvinna-del-av-567)
 - Förhindra att autentiserade användare utan roll får någon som helst behörighet i jobskills.se.(https://trello.com/c/PWcGqRVf/889-roller-f%C3%B6r-olika-beh%C3%B6righeter-%C3%A5tkomst-till-s%C3%B6k)
 - Representera samordningsnr korrekt i PDF export (https://trello.com/c/9Asln4C3/886-pdf-och-mail-samordningsnummer-ja-blir-nej-del-av-595)
 - Strikt sökning fungerar nu korrekt för taxonomi-filter (https://trello.com/c/7kV168RF/843-mailutskick-%C3%B6ppen-s%C3%B6kning-eller-exakt-s%C3%B6kning-del-av-484)
 
-### Sökgränssnitt v3.6.0 (I test 2017-10-19)
-- Toggle för öppen/strikt sökning [#843](https://trello.com/c/7kV168RF/843)
-
-### Inmatningsgränssnitt v3.10.1 (I test 2017-10-19)
-- Ignorerar fel för Safaris incognito mode [#892](https://trello.com/c/tfK16Ic4/892-quota-has-been-exceeded)
-- Fixar omvänd logik för checkboxen för email optout. [#891](https://trello.com/c/SnRFU85P/891-emailoptout-rutan-%C3%A4r-ikryssad-n%C3%A4r-den-ska-vara-urkryssad-och-vice-versa)
-
-### API v4.8.0 (I Test 2017-10-12)
+### API v4.8.0 (I Test 2017-10-12, Produktionssatt 2017-10-19)
 - Möjliggör visning av uppfyllt/ej uppfyllt på personuppgifter, t.ex. kön, ort, migrationsstatus [#567](https://trello.com/c/RwMpT2h2/567)
 - Sparar om använaden har utbildningsdokument, samt engelska utbildningsdokument [#543](https://trello.com/c/9Hk4sosU/543)
 - Sparar om användare väljer att inte vill ha massutskick [#659](https://trello.com/c/Rpl0HbxS/659)
 - Sökanvändare kan välja att söka på alla som har eller inte har samordningsnummer [#857](https://trello.com/c/JAv3RBjq/857)
 
-### Sökgränssnitt v3.5.0 (I Test 2017-10-12)
-- Man kan söka på kandidater som har utbildningsdokument samt engelska utbildningsdokument [#543](https://trello.com/c/9Hk4sosU/543)
-- Man kan begränsa sin sökning till alla användare som har eller inte har samordningsnummer [#857](https://trello.com/c/JAv3RBjq/857)  
+### Inmatningsgränssnitt v3.10.1 (I test 2017-10-19, Produktionssatt 2017-10-19)
+- Ignorerar fel för Safaris incognito mode [#892](https://trello.com/c/tfK16Ic4/892-quota-has-been-exceeded)
+- Fixar omvänd logik för checkboxen för email optout. [#891](https://trello.com/c/SnRFU85P/891-emailoptout-rutan-%C3%A4r-ikryssad-n%C3%A4r-den-ska-vara-urkryssad-och-vice-versa)
 
-### Inmatningsgränssnitt v3.10.0 (I Test 2017-10-12)
+### Inmatningsgränssnitt v3.10.0 (I Test 2017-10-12, Produktionssatt 2017-10-19)
 - Användare kan klicka i att de har samordningsnummer (utan att behöva fylla i själva numret) [#595](https://trello.com/c/B0bjKNok/595)
 - Användare kan fylla i att man har utbildningsdokument samt engelska sådana [#543](https://trello.com/c/9Hk4sosU/543)
 - Användare kan fylla i att man inte vill ha massutskick [#659](https://trello.com/c/Rpl0HbxS/659)
 - Hjälptexter i profilöversikten har lagts till för att underlätta för användaren att förstå vad de ska fylla i och var [#465](https://trello.com/c/MR9dJO4F/465-465-hj%C3%A4lptexter-i-profil%C3%B6versikt-m)
 
-------------
+### Sökgränssnitt v3.6.0 (I test 2017-10-19, Produktionssatt 2017-10-19)
+- Toggle för öppen/strikt sökning [#843](https://trello.com/c/7kV168RF/843)
 
-## I Produktion
+### Sökgränssnitt v3.5.0 (I Test 2017-10-12, Produktionssatt 2017-10-19)
+- Man kan söka på kandidater som har utbildningsdokument samt engelska utbildningsdokument [#543](https://trello.com/c/9Hk4sosU/543)
+- Man kan begränsa sin sökning till alla användare som har eller inte har samordningsnummer [#857](https://trello.com/c/JAv3RBjq/857)  
 
 ### API v4.7.1 (I Test 2017-09-27, Produktionssatt 2017-09-28)
 - För att få till checkboxen för valet `Jag har ett samordningsnummer` har det möjliggjorts att spara `null`-värden på användare i API:et [#853](https://trello.com/c/V7tZz8tC/853)
