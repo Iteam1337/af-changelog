@@ -2,6 +2,9 @@
 
 ## I Test
 
+### Inmatningsgränssnitt v4.0.2 (I test 2017-10-27)
+- Fixar ett fel där fälten för `Studieinriktning` och `År` var tomma när redigeringsläget för utbildningar öppnades. Det gick inte heller att ändra utbildning och antal år - nu är det fixat. [#914](https://trello.com/c/PEgDeW0h/914)
+
 ### Inmatningsgränssnitt v4.0.0 (I test 2017-10-26)
 - Hanterar den nya taxonomi-strukturen, med Yrkeskompetenser tillsammans med Yrkesgrupper [#380](https://trello.com/c/Hq2V30el/380)
 - Slutat skicka fel till Sentry när vi utvecklar lokalt [#895](https://trello.com/c/1ZxHNiZ0/895)
