@@ -2,6 +2,10 @@
 
 ## I Test
 
+### Sökgränssnitt v4.0.1 (I test 2017-10-26)
+- Flyttat kommun till en egen box `Geografiskt område` på plats 4.
+- Inmatning för `Samordningsnummer`, `Födelsedatum` och `Fritext` har fått en plus-knapp.
+
 ### Inmatningsgränssnitt v4.0.2 (I test 2017-10-27)
 - Fixar ett fel där fälten för `Studieinriktning` och `År` var tomma när redigeringsläget för utbildningar öppnades. Det gick inte heller att ändra utbildning och antal år - nu är det fixat. [#914](https://trello.com/c/PEgDeW0h/914)
 
