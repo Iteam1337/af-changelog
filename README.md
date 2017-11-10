@@ -2,7 +2,11 @@
 
 ## I Test
 
-### Sökgränssnitt v4.0.1 (I test 2017-10-26)
+### Sökgränssnitt v4.0.2 (I test 2017-11-10)
+- Profilsidan visar nu fler än en av varje under yrken, kompetenser, språk och yrkesönskemål [#1014](https://trello.com/c/brLol9ns/1014) (ett tag visades bara 1 yrke även om man hade 5 t.ex.)
+- Arbetsgivare ser inte `Sök enskild person`, men istället boxen `Immigrationsstatus` där de kan söka på `AT-UND`, `Har samordningsnummer` och `Asylstatus`. Handläggare kan fortfarande söka som innan. [#1016](https://trello.com/c/3Jl8kocV/1016)
+
+### Sökgränssnitt v4.0.1 (I test 2017-11-09)
 - Flyttat kommun till en egen box `Geografiskt område` på plats 4.
 - Inmatning för `Samordningsnummer`, `Födelsedatum` och `Fritext` har fått en plus-knapp.
 
