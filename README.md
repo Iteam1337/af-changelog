@@ -2,14 +2,6 @@
 
 ## I Test
 
-### Sökgränssnitt v4.0.2 (I test 2017-11-10)
-- Profilsidan visar nu fler än en av varje under yrken, kompetenser, språk och yrkesönskemål [#1014](https://trello.com/c/brLol9ns/1014) (ett tag visades bara 1 yrke även om man hade 5 t.ex.)
-- Arbetsgivare ser inte `Sök enskild person`, men istället boxen `Immigrationsstatus` där de kan söka på `AT-UND`, `Har samordningsnummer` och `Asylstatus`. Handläggare kan fortfarande söka som innan. [#1016](https://trello.com/c/3Jl8kocV/1016)
-
-### Sökgränssnitt v4.0.1 (I test 2017-11-09)
-- Flyttat kommun till en egen box `Geografiskt område` på plats 4.
-- Inmatning för `Samordningsnummer`, `Födelsedatum` och `Fritext` har fått en plus-knapp.
-
 ### Inmatningsgränssnitt v4.0.2 (I test 2017-10-27)
 - Fixar ett fel där fälten för `Studieinriktning` och `År` var tomma när redigeringsläget för utbildningar öppnades. Det gick inte heller att ändra utbildning och antal år - nu är det fixat. [#914](https://trello.com/c/PEgDeW0h/914)
 
@@ -17,9 +9,6 @@
 - Hanterar den nya taxonomi-strukturen, med Yrkeskompetenser tillsammans med Yrkesgrupper [#380](https://trello.com/c/Hq2V30el/380)
 - Slutat skicka fel till Sentry när vi utvecklar lokalt [#895](https://trello.com/c/1ZxHNiZ0/895)
 - Fix för checkboxar i RTL-språk [#885](https://trello.com/c/ElfpYxUV/884)
-
-### Sökgränssnitt v4.0.0 (I test 2017-10-26)
-- Hanterar den nya taxonomin, med Yrkeskompetenser tillsammans med Yrkesgrupper [#380](https://trello.com/c/Hq2V30el/380)
 
 ### API v5.0.1 (I test 2017-10-26)
 - [#380 yrkeskompetenser](https://trello.com/c/Hq2V30el/380-att-ta-med-yrkeskompetenser-under-yrkesgrupper-xl-del-av-390-i-ci-develop)
@@ -36,6 +25,17 @@ Vi använder inte längre taxonomy_work och/eller taxonomy_competences. De är s
 ------------
 
 ## I Produktion
+
+### Sökgränssnitt v4.0.2 (I test 2017-11-10, Produktionssatt 2017-11-10)
+- Profilsidan visar nu fler än en av varje under yrken, kompetenser, språk och yrkesönskemål [#1014](https://trello.com/c/brLol9ns/1014) (ett tag visades bara 1 yrke även om man hade 5 t.ex.)
+- Arbetsgivare ser inte `Sök enskild person`, men istället boxen `Immigrationsstatus` där de kan söka på `AT-UND`, `Har samordningsnummer` och `Asylstatus`. Handläggare kan fortfarande söka som innan. [#1016](https://trello.com/c/3Jl8kocV/1016)
+
+### Sökgränssnitt v4.0.1 (I test 2017-11-09, Produktionssatt 2017-11-10)
+- Flyttat kommun till en egen box `Geografiskt område` på plats 4.
+- Inmatning för `Samordningsnummer`, `Födelsedatum` och `Fritext` har fått en plus-knapp.
+
+### Sökgränssnitt v4.0.0 (I test 2017-10-26, Produktionssatt ca 2017-11-03)
+- Hanterar den nya taxonomin, med Yrkeskompetenser tillsammans med Yrkesgrupper [#380](https://trello.com/c/Hq2V30el/380)
 
 ### API v4.8.1 (I test 2017-10-19, Produktionssatt 2017-10-19)
 - Representera kvinna/man korrekt i sökresultat. (https://trello.com/c/Wi5P0KiF/885-frontend-s%C3%B6k-uppfylla-kraven-man-kvinna-del-av-567)
