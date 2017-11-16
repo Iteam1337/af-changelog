@@ -2,21 +2,15 @@
 
 ## I Test
 
-### Inmatningsgränssnitt v4.0.2 (I test 2017-10-27)
-- Fixar ett fel där fälten för `Studieinriktning` och `År` var tomma när redigeringsläget för utbildningar öppnades. Det gick inte heller att ändra utbildning och antal år - nu är det fixat. [#914](https://trello.com/c/PEgDeW0h/914)
-
-### Inmatningsgränssnitt v4.0.0 (I test 2017-10-26)
-- Hanterar den nya taxonomi-strukturen, med Yrkeskompetenser tillsammans med Yrkesgrupper [#380](https://trello.com/c/Hq2V30el/380)
-- Slutat skicka fel till Sentry när vi utvecklar lokalt [#895](https://trello.com/c/1ZxHNiZ0/895)
-- Fix för checkboxar i RTL-språk [#885](https://trello.com/c/ElfpYxUV/884)
-
-### API v5.0.1 (I test 2017-10-26)
-- [#380 yrkeskompetenser](https://trello.com/c/Hq2V30el/380-att-ta-med-yrkeskompetenser-under-yrkesgrupper-xl-del-av-390-i-ci-develop)
-- Versionering av urk-version
-- Omskrivna SQL-frågor
-
-Denna release ändrar strukturen för taxonomin.
-Vi använder inte längre taxonomy_work och/eller taxonomy_competences. De är sammanslagna till `taxonomy`.
+### Sökgränssnitt v4.0.3 (I test 2017-11-16)
+- Arbetsgivare kan inte söka på samordningsnummer och inte heller se dem på en kandidats profilsida [#1017](https://trello.com/c/RKcd79bg/1017)
+- Ny informationssida för arbetsgivare på `/arbetsgivarinformation` [#1024](https://trello.com/c/E1wqLdJL/1024)
+- Beta-info på söksidan och i header [#1023](https://trello.com/c/ILsFi39z/1023)
+- Sökrutor för fritext har förstoringsglas istället för dropdown-design [#1022](https://trello.com/c/c0T1F9ta/1022)
+- Hjälp-info om utbildningar i Utbildningar-sökboxen [#1021](https://trello.com/c/6eQ7M06t/1021)
+- Tagit bort automatisk redirect från start-sidan till inlogget, man måste klicka på `Logga in` nu [#1020](https://trello.com/c/0xuEhMUA/1020)
+- Ny profilsida [#1019](https://trello.com/c/CScudCTO/1019)
+- Klickar man på en sök-kandidat i resultat-listan så öppnas det i samma flik, med en `Tillbaka`-knapp upptill som går tillbaka till där man senast var i resultatlistan (samma kandidater, sökning osv)
 
 ### API-import v1.0.0 (I test 2017-10-26)
 - [#380 yrkeskompetenser](https://trello.com/c/Hq2V30el/380-att-ta-med-yrkeskompetenser-under-yrkesgrupper-xl-del-av-390-i-ci-develop)
@@ -25,6 +19,22 @@ Vi använder inte längre taxonomy_work och/eller taxonomy_competences. De är s
 ------------
 
 ## I Produktion
+
+### API v5.0.1 (I test 2017-10-26, Produktionssatt 2017-11-09)
+- [#380 yrkeskompetenser](https://trello.com/c/Hq2V30el/380-att-ta-med-yrkeskompetenser-under-yrkesgrupper-xl-del-av-390-i-ci-develop)
+- Versionering av urk-version
+- Omskrivna SQL-frågor
+
+Denna release ändrar strukturen för taxonomin.
+Vi använder inte längre taxonomy_work och/eller taxonomy_competences. De är sammanslagna till `taxonomy`.
+
+### Inmatningsgränssnitt v4.0.2 (I test 2017-10-27, Produktionssatt 2017-10-27)
+- Fixar ett fel där fälten för `Studieinriktning` och `År` var tomma när redigeringsläget för utbildningar öppnades. Det gick inte heller att ändra utbildning och antal år - nu är det fixat. [#914](https://trello.com/c/PEgDeW0h/914)
+
+### Inmatningsgränssnitt v4.0.0 (I test 2017-10-26, Produktionssatt 2017-10-27)
+- Hanterar den nya taxonomi-strukturen, med Yrkeskompetenser tillsammans med Yrkesgrupper [#380](https://trello.com/c/Hq2V30el/380)
+- Slutat skicka fel till Sentry när vi utvecklar lokalt [#895](https://trello.com/c/1ZxHNiZ0/895)
+- Fix för checkboxar i RTL-språk [#885](https://trello.com/c/ElfpYxUV/884)
 
 ### Sökgränssnitt v4.0.2 (I test 2017-11-10, Produktionssatt 2017-11-10)
 - Profilsidan visar nu fler än en av varje under yrken, kompetenser, språk och yrkesönskemål [#1014](https://trello.com/c/brLol9ns/1014) (ett tag visades bara 1 yrke även om man hade 5 t.ex.)
