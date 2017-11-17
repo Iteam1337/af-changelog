@@ -1,27 +1,6 @@
 # af-changelog
 
 ## I Test
-### Sökgränssnitt v4.0.5 (I test 2017-11-17)
-* Ändrad logik för när vilken hjälptext visas på `/profil`-sidan:
-  * Har man AT-UND -> hjälptexten för `DET HÄR ÄR EN ASYLSÖKANDE SOM FÅR ARBETA`
-  * Har man Uppehållstillstånd -> Hjälptexten om `DET HÄR ÄR EN NYANLÄND SOM FÅR ARBETA`
-  * Har man inte AT-UND -> Hjälptexten om `DET HÄR ÄR EN ASYLSÖKANDE SOM INTE FÅR ARBETA ÄN`
-
-* Uppdaterad copy för ovanstående hjälptexter
-* Tagit-bort modalen som länken öppnade och länkar istället till `/arbetsgivarinformation`-sidan
-
-### Sökgränssnitt v4.0.4 (I test 2017-11-17)
-- Korrigerat copy och lagt till en `tillbaka`-knapp på `/arbetsgivarinformation`-sidan
-
-### Sökgränssnitt v4.0.3 (I test 2017-11-16)
-- Arbetsgivare kan inte söka på samordningsnummer och inte heller se dem på en kandidats profilsida [#1017](https://trello.com/c/RKcd79bg/1017)
-- Ny informationssida för arbetsgivare på `/arbetsgivarinformation` [#1024](https://trello.com/c/E1wqLdJL/1024)
-- Beta-info på söksidan och i header [#1023](https://trello.com/c/ILsFi39z/1023)
-- Sökrutor för fritext har förstoringsglas istället för dropdown-design [#1022](https://trello.com/c/c0T1F9ta/1022)
-- Hjälp-info om utbildningar i Utbildningar-sökboxen [#1021](https://trello.com/c/6eQ7M06t/1021)
-- Tagit bort automatisk redirect från start-sidan till inlogget, man måste klicka på `Logga in` nu [#1020](https://trello.com/c/0xuEhMUA/1020)
-- Ny profilsida [#1019](https://trello.com/c/CScudCTO/1019)
-- Klickar man på en sök-kandidat i resultat-listan så öppnas det i samma flik, med en `Tillbaka`-knapp upptill som går tillbaka till där man senast var i resultatlistan (samma kandidater, sökning osv)
 
 ### API-import v1.0.0 (I test 2017-10-26)
 - [#380 yrkeskompetenser](https://trello.com/c/Hq2V30el/380-att-ta-med-yrkeskompetenser-under-yrkesgrupper-xl-del-av-390-i-ci-develop)
@@ -30,6 +9,28 @@
 ------------
 
 ## I Produktion
+
+### Sökgränssnitt v4.0.5 (I test 2017-11-17, Produktionssatt 2017-11-17)
+* Ändrad logik för när vilken hjälptext visas på `/profil`-sidan:
+  * Har man AT-UND -> hjälptexten för `DET HÄR ÄR EN ASYLSÖKANDE SOM FÅR ARBETA`
+  * Har man Uppehållstillstånd -> Hjälptexten om `DET HÄR ÄR EN NYANLÄND SOM FÅR ARBETA`
+  * Har man inte AT-UND -> Hjälptexten om `DET HÄR ÄR EN ASYLSÖKANDE SOM INTE FÅR ARBETA ÄN`
+
+* Uppdaterad copy för ovanstående hjälptexter
+* Tagit-bort modalen som länken öppnade och länkar istället till `/arbetsgivarinformation`-sidan
+
+### Sökgränssnitt v4.0.4 (I test 2017-11-17, Produktionssatt 2017-11-17)
+- Korrigerat copy och lagt till en `tillbaka`-knapp på `/arbetsgivarinformation`-sidan
+
+### Sökgränssnitt v4.0.3 (I test 2017-11-16, Produktionssatt 2017-11-17)
+- Arbetsgivare kan inte söka på samordningsnummer och inte heller se dem på en kandidats profilsida [#1017](https://trello.com/c/RKcd79bg/1017)
+- Ny informationssida för arbetsgivare på `/arbetsgivarinformation` [#1024](https://trello.com/c/E1wqLdJL/1024)
+- Beta-info på söksidan och i header [#1023](https://trello.com/c/ILsFi39z/1023)
+- Sökrutor för fritext har förstoringsglas istället för dropdown-design [#1022](https://trello.com/c/c0T1F9ta/1022)
+- Hjälp-info om utbildningar i Utbildningar-sökboxen [#1021](https://trello.com/c/6eQ7M06t/1021)
+- Tagit bort automatisk redirect från start-sidan till inlogget, man måste klicka på `Logga in` nu [#1020](https://trello.com/c/0xuEhMUA/1020)
+- Ny profilsida [#1019](https://trello.com/c/CScudCTO/1019)
+- Klickar man på en sök-kandidat i resultat-listan så öppnas det i samma flik, med en `Tillbaka`-knapp upptill som går tillbaka till där man senast var i resultatlistan (samma kandidater, sökning osv)
 
 ### API v5.0.1 (I test 2017-10-26, Produktionssatt 2017-11-09)
 - [#380 yrkeskompetenser](https://trello.com/c/Hq2V30el/380-att-ta-med-yrkeskompetenser-under-yrkesgrupper-xl-del-av-390-i-ci-develop)
