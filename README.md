@@ -1,6 +1,17 @@
 # af-changelog
 
 ## I Test
+### Sökgränssnitt v4.0.5 (I test 2017-11-17)
+* Ändrad logik för när vilken hjälptext visas på `/profil`-sidan:
+  * Har man AT-UND -> hjälptexten för `DET HÄR ÄR EN ASYLSÖKANDE SOM FÅR ARBETA`
+  * Har man Uppehållstillstånd -> Hjälptexten om `DET HÄR ÄR EN NYANLÄND SOM FÅR ARBETA`
+  * Har man inte AT-UND -> Hjälptexten om `DET HÄR ÄR EN ASYLSÖKANDE SOM INTE FÅR ARBETA ÄN`
+
+* Uppdaterad copy för ovanstående hjälptexter
+* Tagit-bort modalen som länken öppnade och länkar istället till `/arbetsgivarinformation`-sidan
+
+### Sökgränssnitt v4.0.4 (I test 2017-11-17)
+- Korrigerat copy och lagt till en `tillbaka`-knapp på `/arbetsgivarinformation`-sidan
 
 ### Sökgränssnitt v4.0.3 (I test 2017-11-16)
 - Arbetsgivare kan inte söka på samordningsnummer och inte heller se dem på en kandidats profilsida [#1017](https://trello.com/c/RKcd79bg/1017)
