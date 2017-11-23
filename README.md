@@ -2,6 +2,10 @@
 
 ## I Test
 
+### Sökgränssnitt v4.0.7 (I test 2017-11-23)
+- Tagit bort Beta-information för handläggare [#1033](https://trello.com/c/QOeXVHFL/1033)
+- Uppdaterat copy på `/arbetsgivarinformation`(lagt till ingress och ändrat lite styling) 
+
 ### API-import v1.0.0 (I test 2017-10-26)
 - [#380 yrkeskompetenser](https://trello.com/c/Hq2V30el/380-att-ta-med-yrkeskompetenser-under-yrkesgrupper-xl-del-av-390-i-ci-develop)
 - Hantera konflikter där `ID` inte är unikt i postgres
