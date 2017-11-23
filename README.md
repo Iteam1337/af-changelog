@@ -3,6 +3,7 @@
 ## I Test
 
 ### Sökgränssnitt v4.0.7 (I test 2017-11-23)
+(_v.4.0.6 bumpningen failade, innehåller samma ändringar som denna version_)
 - Tagit bort Beta-information för handläggare [#1033](https://trello.com/c/QOeXVHFL/1033)
 - Uppdaterat copy på `/arbetsgivarinformation`(lagt till ingress och ändrat lite styling) 
 
