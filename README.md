@@ -2,11 +2,11 @@
 
 ## I Test
 
-### Inmatningsgränssnitt v4.0.4 (I test 2018-01-15)
-(_v.4.0.3 bumpningen failade, innehåller samma ändringar som denna version_)
-- Ny design på startsidan och headern.
-- Tagit bort Sentry för exception-hantering.
-
+### Inmatningsgränssnitt v4.0.5 (I test 2018-01-15)
+- Fixat så att sidomenyn ine blockerar halva skärmen i IE11 [#1068](https://trello.com/c/lt0vgJVa/1068)
+- Fixat så att nyhetssidan inte bara visas ihopträngd i övre vänstra hörnet i IE11 [#1068](https://trello.com/c/lt0vgJVa/1068)
+- Tagit bort länken till `Om Jobskills`-sidan som inte finns än
+- Mindre styling-fixar i RTL-språk
 
 ### Sökgränssnitt v4.0.7 (I test 2017-11-23)
 (_v.4.0.6 bumpningen failade, innehåller samma ändringar som denna version_)
@@ -20,6 +20,12 @@
 ------------
 
 ## I Produktion
+
+### Inmatningsgränssnitt v4.0.4 (I test 2018-01-15, Produktionssatt 2018-01-15)
+(_v.4.0.3 bumpningen failade, innehåller samma ändringar som denna version_)
+- Ny design på startsidan och headern.
+- Tagit bort Sentry för exception-hantering.
+
 
 ### Sökgränssnitt v4.0.5 (I test 2017-11-17, Produktionssatt 2017-11-17)
 * Ändrad logik för när vilken hjälptext visas på `/profil`-sidan:
