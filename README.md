@@ -2,6 +2,12 @@
 
 ## I Test
 
+### Inmatningsgränssnitt v4.0.4 (I test 2018-01-15)
+(_v.4.0.3 bumpningen failade, innehåller samma ändringar som denna version_)
+- Ny design på startsidan och headern.
+- Tagit bort Sentry för exception-hantering.
+
+
 ### Sökgränssnitt v4.0.7 (I test 2017-11-23)
 (_v.4.0.6 bumpningen failade, innehåller samma ändringar som denna version_)
 - Tagit bort Beta-information för handläggare [#1033](https://trello.com/c/QOeXVHFL/1033)
