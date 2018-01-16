@@ -2,6 +2,11 @@
 
 ## I Test
 
+### Inmatningsgränssnitt v4.0.6 (I test 2018-01-16)
+- Användarspråken visas efter att man loggat ut [#1068](https://trello.com/c/lt0vgJVa/1068)
+- Arbetsförmedlingen- och Jobskills-loggorna klipps inte av i mobil [#1068](https://trello.com/c/lt0vgJVa/1068)
+- Kosmetisk fix av startsidans inforuta [#1069](https://trello.com/c/mkvoJNCR/1069)
+
 ### Inmatningsgränssnitt v4.0.5 (I test 2018-01-15)
 - Fixat så att sidomenyn ine blockerar halva skärmen i IE11 [#1068](https://trello.com/c/lt0vgJVa/1068)
 - Fixat så att nyhetssidan inte bara visas ihopträngd i övre vänstra hörnet i IE11 [#1068](https://trello.com/c/lt0vgJVa/1068)
