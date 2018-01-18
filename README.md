@@ -2,6 +2,13 @@
 
 ## I Test
 
+### Sökgränssnitt v5.0.1 (I test 2018-01-18)
+- Fixat felaktig styling där vissa äldre webbläsare inte visade sidorna som en kolumn (med headern överst, sen body, följt av footern nederst) - allt låg i sidled (row).
+- Lagt till unika keys för alla tags (för att förhindra renderings-problem och console-varningar).
+
+### Sökgränssnitt v5.0.0 (I test 2018-01-18)
+Det nya söket [#927](https://trello.com/c/XwUGPKSr/927) och en massa andra Trello-kort.
+
 ### Inmatningsgränssnitt v4.0.6 (I test 2018-01-16)
 - Användarspråken visas efter att man loggat ut [#1068](https://trello.com/c/lt0vgJVa/1068)
 - Arbetsförmedlingen- och Jobskills-loggorna klipps inte av i mobil [#1068](https://trello.com/c/lt0vgJVa/1068)
