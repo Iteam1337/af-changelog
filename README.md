@@ -2,6 +2,20 @@
 
 ## I Test
 
+### Sökgränssnitt v5.0.2 (I test 2018-01-23)
+- Styling-fixar i IE11 [sprintboard #344](https://trello.com/c/Mc4F7cZ8/344) och Profil-sidan [sprintboard #303](https://trello.com/c/dBe1tWGO/303)
+- Klickar man bort en områdes-tagg så avmarkeras den även i Områdes-fliken [Jobb #1104](https://trello.com/c/WDgkotW2/1104)
+- Fixat till bakgrundsfärgerna [Jobb #1115](https://trello.com/c/L8WyR3Tq/1115)
+- Om man återställer alla sökkriterier så ser det ut som innan man gjort en sökning, dvs den matchar inte på _alla_ kandidater [Jobb #1095](https://trello.com/c/rml0OuSa/1095)
+- Fritextsöket innuti Yrke-, Område- och Kompetens-tabbarna fungerar igen [Jobb #1106](https://trello.com/c/FmGUObeW/1106) och [sprintboard #363](https://trello.com/c/GD92dzGo/363)
+- När man byter mellan sidorna hamnar man nu högst upp på sidan [Jobb #1091](https://trello.com/c/Z6XAA7Vz/1091) och [Jobb #1094](https://trello.com/c/DaLngiiD/1094)
+- Feedback-formuläret är nu på Svenska [Jobb #1098](https://trello.com/c/oDAUDJA2/1098) och länktexten är ändrad [Jobb #1097](https://trello.com/c/d2GPbKVc/1097)
+- Tips på liknande sökkriterier har döljts tillfälligt [#1107](https://trello.com/c/AjVYhDrs/1107)
+- Erfarenhetsmätaren på Yrke & Kompetenser matchar mellan fritext- och tabbarna [Jobb #1100](https://trello.com/c/Mxj0NdHi/1100)
+- Erfarenhetsmätaren är inkluderande på år [Jobb #1099](https://trello.com/c/6KzIYFlx/1099)
+- Områden är ikryssade i Områdes-fliken efter att man valt i fritext-söket [#1105](https://trello.com/c/UrQaKNt3/1105)
+- Pagineringsvalet återställs vid ny sökning [sprintboard #338](https://trello.com/c/nvIRt0iC/338)
+
 ### Sökgränssnitt v5.0.1 (I test 2018-01-18)
 - Fixat felaktig styling där vissa äldre webbläsare inte visade sidorna som en kolumn (med headern överst, sen body, följt av footern nederst) - allt låg i sidled (row).
 - Lagt till unika keys för alla tags (för att förhindra renderings-problem och console-varningar).
