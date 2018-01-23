@@ -23,6 +23,9 @@
 ### Sökgränssnitt v5.0.0 (I test 2018-01-18)
 Det nya söket [#927](https://trello.com/c/XwUGPKSr/927) och en massa andra Trello-kort.
 
+### Inmatningsgränssnitt v.4.0.7 (I test 2018-01-23)
+- Lagt tillbaka alla länkarna till Sökgränssnittet från Start-sidan (i headern, dess sidomeny som visas i mobil, i bodyn, och i footern), samt mindre styling-fixar i RTL-språk för dessa länkar [#328](https://trello.com/c/YDDZZtNU/328)
+
 ### Inmatningsgränssnitt v4.0.6 (I test 2018-01-16)
 - Användarspråken visas efter att man loggat ut [#1068](https://trello.com/c/lt0vgJVa/1068)
 - Arbetsförmedlingen- och Jobskills-loggorna klipps inte av i mobil [#1068](https://trello.com/c/lt0vgJVa/1068)
