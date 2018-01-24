@@ -2,6 +2,21 @@
 
 ## I Test
 
+### API v6.1.1 (I test 2018-01-23)
+- Fix för att hantera .some( som kastas av api:et vid sökningar av flera erfarenheter
+
+### API v6.1.0 (I test 2018-01-23)
+#### Breaking changes
+- Indexera bara de profiler som finns i den urk:version som används
+#### Fixes
+- Sorterar sökindexen efter flest träffar + flest år
+
+### API v6.0.0 (I test 2018-01-23)
+#### Breaking changes
+- Anonymiserad databas
+- CORS-förändringar
+- Personuppgifter indexeras inte i elasticsearch
+
 ### Sökgränssnitt v5.0.2 (I test 2018-01-23)
 - Styling-fixar i IE11 [sprintboard #344](https://trello.com/c/Mc4F7cZ8/344) och Profil-sidan [sprintboard #303](https://trello.com/c/dBe1tWGO/303)
 - Klickar man bort en områdes-tagg så avmarkeras den även i Områdes-fliken [Jobb #1104](https://trello.com/c/WDgkotW2/1104)
@@ -77,6 +92,10 @@ Det nya söket [#927](https://trello.com/c/XwUGPKSr/927) och en massa andra Trel
 - Tagit bort automatisk redirect från start-sidan till inlogget, man måste klicka på `Logga in` nu [#1020](https://trello.com/c/0xuEhMUA/1020)
 - Ny profilsida [#1019](https://trello.com/c/CScudCTO/1019)
 - Klickar man på en sök-kandidat i resultat-listan så öppnas det i samma flik, med en `Tillbaka`-knapp upptill som går tillbaka till där man senast var i resultatlistan (samma kandidater, sökning osv)
+
+### API v5.1.0 (Produktionssatt ca 2017-11-09)
+- Använd mailkön för email
+- Funktionalitet för varningar och avpublicering av inaktiva användare.
 
 ### API v5.0.1 (I test 2017-10-26, Produktionssatt 2017-11-09)
 - [#380 yrkeskompetenser](https://trello.com/c/Hq2V30el/380-att-ta-med-yrkeskompetenser-under-yrkesgrupper-xl-del-av-390-i-ci-develop)
