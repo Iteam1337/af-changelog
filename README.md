@@ -2,6 +2,21 @@
 
 ## I Test
 
+### Sökgränssnitt v5.0.2 (I test 2018-01-31)
+- Docker port ändrad till 4003 (för att undvika krock) [#109](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/109)
+- Profiler öppnas i ny tab i IE11 [#104](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/104)
+- Korrigering av styling enligt guidelines för Ny i Sverige. [#87](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/87)
+- Företagareinformation öppnas i samma fönster [#105](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/105)
+- Checkboxar fylls i korrekt när man återvänder till sidan [#107](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/107)
+- Användaren kan nu välja minsta antal år 0 i dropdown. [#108](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/108)
+- Korrigerade stavfel [#111](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/111)
+- Fixade bug som gjorde att tidigare sökning inte visades när användaren återkom från Profilsida [#106](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/106)
+- Typsnitt lagras lokalt i appen ist för att hämtas från CDN vilket i detta fallet snabbar upp laddningstiden för sidan väsentligt. [#110](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/110)
+- Bytt ut ikoner till SVG vilket minskar storleken på applikationen med flera MB. [#114](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/114)
+- Lagt till cacheing av bilder och liknande resurser, så de inte laddas ner i onödan, vilket gör laddning av sidan snabbare. [#113](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/113)
+- Fixat en bugg som gjorde att sidhuvudet inte visades korrekt efter inloggning. [#116](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/116)
+- Copy-ändringar på utloggningssidan och av öppettider. [#115](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/115)
+
 ### API v6.1.1 (I test 2018-01-23)
 - Fix för att hantera .some( som kastas av api:et vid sökningar av flera erfarenheter
 
@@ -35,9 +50,6 @@
 - Fixat felaktig styling där vissa äldre webbläsare inte visade sidorna som en kolumn (med headern överst, sen body, följt av footern nederst) - allt låg i sidled (row).
 - Lagt till unika keys för alla tags (för att förhindra renderings-problem och console-varningar).
 
-### Sökgränssnitt v5.0.0 (I test 2018-01-18)
-Det nya söket [#927](https://trello.com/c/XwUGPKSr/927) och en massa andra Trello-kort.
-
 ### Inmatningsgränssnitt v.4.0.7 (I test 2018-01-23)
 - Lagt tillbaka alla länkarna till Sökgränssnittet från Start-sidan (i headern, dess sidomeny som visas i mobil, i bodyn, och i footern), samt mindre styling-fixar i RTL-språk för dessa länkar [#328](https://trello.com/c/YDDZZtNU/328)
 
@@ -52,10 +64,7 @@ Det nya söket [#927](https://trello.com/c/XwUGPKSr/927) och en massa andra Trel
 - Tagit bort länken till `Om Jobskills`-sidan som inte finns än
 - Mindre styling-fixar i RTL-språk
 
-### Sökgränssnitt v4.0.7 (I test 2017-11-23)
-(_v.4.0.6 bumpningen failade, innehåller samma ändringar som denna version_)
-- Tagit bort Beta-information för handläggare [#1033](https://trello.com/c/QOeXVHFL/1033)
-- Uppdaterat copy på `/arbetsgivarinformation`(lagt till ingress och ändrat lite styling) 
+
 
 ### API-import v1.0.0 (I test 2017-10-26)
 - [#380 yrkeskompetenser](https://trello.com/c/Hq2V30el/380-att-ta-med-yrkeskompetenser-under-yrkesgrupper-xl-del-av-390-i-ci-develop)
@@ -64,6 +73,14 @@ Det nya söket [#927](https://trello.com/c/XwUGPKSr/927) och en massa andra Trel
 ------------
 
 ## I Produktion
+
+### Sökgränssnitt v5.0.0 (I test 2018-01-18)
+Det nya söket [#927](https://trello.com/c/XwUGPKSr/927) och en massa andra Trello-kort.
+
+### Sökgränssnitt v4.0.7 (I test 2017-11-23)
+(_v.4.0.6 bumpningen failade, innehåller samma ändringar som denna version_)
+- Tagit bort Beta-information för handläggare [#1033](https://trello.com/c/QOeXVHFL/1033)
+- Uppdaterat copy på `/arbetsgivarinformation`(lagt till ingress och ändrat lite styling) 
 
 ### Inmatningsgränssnitt v4.0.4 (I test 2018-01-15, Produktionssatt 2018-01-15)
 (_v.4.0.3 bumpningen failade, innehåller samma ändringar som denna version_)
