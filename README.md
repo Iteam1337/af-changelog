@@ -15,8 +15,17 @@ Alla formulär har bytts ut från redux-form till [Formik](https://github.com/ja
 #### Buggfixar
 - Fixat alla dessa i sprintboarden som uppstått och lösts under utveckling [#400](https://trello.com/c/3f63ISpa/400), [#421](https://trello.com/c/yfgRLMVa/421), [#422](https://trello.com/c/5Y3t2i31/422),  [#423](https://trello.com/c/qD1NrDnr/423), [#424](https://trello.com/c/2peMu9n5/424), [#428](https://trello.com/c/RaIbKoa2/428), [#429](https://trello.com/c/eDWu3TUS/429), [#431](https://trello.com/c/BQX0yl42/431), [#432](https://trello.com/c/kEpcNYYj/432), [#434](https://trello.com/c/EGRiFOq0/434),  [#435](https://trello.com/c/nE34SEtz/435), [#440](https://trello.com/c/Qfr4Peaw/440), [#425](https://trello.com/c/J03r8RUL/425), [#455](https://trello.com/c/TLOqCCE7/455), [#456](https://trello.com/c/tWuWPbkc/456), [#458](https://trello.com/c/CMP1Xz7T/458), [#462](https://trello.com/c/y87NkRf9/462), [#461](https://trello.com/c/DX3yeGQJ/461), [#449](https://trello.com/c/kjAKr58Z/449), [#1078](https://trello.com/c/EQaLbmJW/1078)
 
+### Sökgränssnitt v5.1.1 (I test 2018-02-21)
+- Det går att söka på `Examen`, `Har dokument` och `Har engelska dokument` på gymnasienivå [#1133](https://trello.com/c/HQ1mb6zZ/1133)
+- Skriver ut om en användare `Har samordningsnummer` på hens profilsida [#1125](https://trello.com/c/YMFaeA0g/1125)
+- Ändrat alla `Karriärönskemål` till `Övriga yrkesönskemål` [#1131](https://trello.com/c/EHqGye8g/1131)
+- Ändrat copy för asylstatusar på informationssidan och Profilsidan [#1172](https://trello.com/c/xfNHIITV/1172)
+- Fixat adressen för länken till `Skapa arbetsgivarkonto` på Startsidan [#1159](https://trello.com/c/BFAog9rE/1159)
+- Lagt till mellanrum mellan ikon och länk på Startsidan [#1153](https://trello.com/c/v0E6sY08/1153)
+- Autoredeployar till Test vid taggad release [#413](https://trello.com/c/0wWuBdlK/413)
+- Lagt till punkten efter utbildning på startsidan [#1132](https://trello.com/c/VATx3vnY/1132)
 
-### Sökgränssnitt v5.0.2 (I test 2018-01-31)
+### Sökgränssnitt v5.1.0 (I test 2018-01-31)
 - Docker port ändrad till 4003 (för att undvika krock) [#109](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/109)
 - Profiler öppnas i ny tab i IE11 [#104](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/104)
 - Korrigering av styling enligt guidelines för Ny i Sverige. [#87](https://github.com/Iteam1337/af-kompetenskartlaggning-admin/pull/87)
