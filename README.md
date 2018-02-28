@@ -2,6 +2,9 @@
 
 ## I Test
 
+### Sökgränssnitt v5.2.0 (I test 2018-02-28)
+- Mappning mellan yrkesval och kompetenser. I Kompetens-fliken listas de yrken man valt och tillhörande kompetenser som förslag [#1121](https://trello.com/c/2AGBIgjM/1121)
+- Fixat fontawesome-ikonerna i CSS:en - de visades inte innan ifall man inte hade fontawesome installerat på sin dator.
 
 ------------
 
