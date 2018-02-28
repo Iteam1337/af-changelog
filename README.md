@@ -2,7 +2,12 @@
 
 ## I Test
 
-### Inmatningsgränssnitt v.5.0.0 (I test 2018-02-21)
+
+------------
+
+## I Produktion
+
+### Inmatningsgränssnitt v.5.0.0 (I test 2018-02-21, Produktionssatt 2018-02-23)
 #### Breaking
 Alla formulär har bytts ut från redux-form till [Formik](https://github.com/jaredpalmer/formik) ([Jobb #688](https://trello.com/c/iKkL8b55/688))
 
@@ -15,13 +20,13 @@ Alla formulär har bytts ut från redux-form till [Formik](https://github.com/ja
 #### Buggfixar
 - Fixat alla dessa i sprintboarden som uppstått och lösts under utveckling [#400](https://trello.com/c/3f63ISpa/400), [#421](https://trello.com/c/yfgRLMVa/421), [#422](https://trello.com/c/5Y3t2i31/422),  [#423](https://trello.com/c/qD1NrDnr/423), [#424](https://trello.com/c/2peMu9n5/424), [#428](https://trello.com/c/RaIbKoa2/428), [#429](https://trello.com/c/eDWu3TUS/429), [#431](https://trello.com/c/BQX0yl42/431), [#432](https://trello.com/c/kEpcNYYj/432), [#434](https://trello.com/c/EGRiFOq0/434),  [#435](https://trello.com/c/nE34SEtz/435), [#440](https://trello.com/c/Qfr4Peaw/440), [#425](https://trello.com/c/J03r8RUL/425), [#455](https://trello.com/c/TLOqCCE7/455), [#456](https://trello.com/c/tWuWPbkc/456), [#458](https://trello.com/c/CMP1Xz7T/458), [#462](https://trello.com/c/y87NkRf9/462), [#461](https://trello.com/c/DX3yeGQJ/461), [#449](https://trello.com/c/kjAKr58Z/449), [#1078](https://trello.com/c/EQaLbmJW/1078)
 
-### Sökgränssnitt v5.1.3 (I test 2018-02-21)
+### Sökgränssnitt v5.1.3 (I test 2018-02-21, Produktionssatt 2018-02-23)
 - Fixat footern och headern på startsidan - de hade råkat få extra padding där de inte skulle ha det.
 
-### Sökgränssnitt v5.1.2 (I test 2018-02-21)
+### Sökgränssnitt v5.1.2 (I test 2018-02-21, Produktionssatt 2018-02-23)
 - Fix för att få bygget att funka - tagit bort `jest-cli` som devDependency eftersom det pajar bygget (och ändå installeras av `jest` som använder sig av det).
 
-### Sökgränssnitt v5.1.1 (I test 2018-02-21)
+### Sökgränssnitt v5.1.1 (I test 2018-02-21, Produktionssatt 2018-02-23)
 - Det går att söka på `Examen`, `Har dokument` och `Har engelska dokument` på gymnasienivå [#1133](https://trello.com/c/HQ1mb6zZ/1133)
 - Skriver ut om en användare `Har samordningsnummer` på hens profilsida [#1125](https://trello.com/c/YMFaeA0g/1125)
 - Ändrat alla `Karriärönskemål` till `Övriga yrkesönskemål` [#1131](https://trello.com/c/EHqGye8g/1131)
@@ -93,15 +98,9 @@ Alla formulär har bytts ut från redux-form till [Formik](https://github.com/ja
 - Tagit bort länken till `Om Jobskills`-sidan som inte finns än
 - Mindre styling-fixar i RTL-språk
 
-
-
 ### API-import v1.0.0 (I test 2017-10-26)
 - [#380 yrkeskompetenser](https://trello.com/c/Hq2V30el/380-att-ta-med-yrkeskompetenser-under-yrkesgrupper-xl-del-av-390-i-ci-develop)
 - Hantera konflikter där `ID` inte är unikt i postgres
-
-------------
-
-## I Produktion
 
 ### Sökgränssnitt v5.0.0 (I test 2018-01-18)
 Det nya söket [#927](https://trello.com/c/XwUGPKSr/927) och en massa andra Trello-kort.
