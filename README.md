@@ -1,16 +1,18 @@
 # af-changelog
 
 ## I Test
-### Sökgränssnitt v5.2.1 (I test 2018-02-28)
-- Rubrikerna och "taggarna" under Kompetens-fliken försvann i mobil, de har nu lagts tillbaka och style:ats korrekt.
 
-### Sökgränssnitt v5.2.0 (I test 2018-02-28)
-- Mappning mellan yrkesval och kompetenser. I Kompetens-fliken listas de yrken man valt och tillhörande kompetenser som förslag [#1121](https://trello.com/c/2AGBIgjM/1121)
-- Fixat fontawesome-ikonerna i CSS:en - de visades inte innan ifall man inte hade fontawesome installerat på sin dator.
 
 ------------
 
 ## I Produktion
+
+### Sökgränssnitt v5.2.1 (I test 2018-02-28, Produktionssatt 2018-03-14)
+- Rubrikerna och "taggarna" under Kompetens-fliken försvann i mobil, de har nu lagts tillbaka och style:ats korrekt.
+
+### Sökgränssnitt v5.2.0 (I test 2018-02-28, Produktionssatt 2018-03-14)
+- Mappning mellan yrkesval och kompetenser. I Kompetens-fliken listas de yrken man valt och tillhörande kompetenser som förslag [#1121](https://trello.com/c/2AGBIgjM/1121)
+- Fixat fontawesome-ikonerna i CSS:en - de visades inte innan ifall man inte hade fontawesome installerat på sin dator.
 
 ### Inmatningsgränssnitt v.5.0.0 (I test 2018-02-21, Produktionssatt 2018-02-23)
 #### Breaking
