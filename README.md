@@ -6,6 +6,8 @@
 ------------
 
 ## I Produktion
+### Inmatningsgränssnitt v.5.0.1 (Produktionssatt 2018-03-15)
+- Fix för att alla asylstatusar felaktigt sattes till `false` på alla fält [#475](https://trello.com/c/OPrD81az/475)
 
 ### Sökgränssnitt v5.2.1 (I test 2018-02-28, Produktionssatt 2018-03-14)
 - Rubrikerna och "taggarna" under Kompetens-fliken försvann i mobil, de har nu lagts tillbaka och style:ats korrekt.
