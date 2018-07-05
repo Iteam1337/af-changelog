@@ -6,6 +6,9 @@
 ------------
 
 ## I Produktion
+### Sökgränsnitt 5.4.3 (Produktionssatt 2018-07-05)
+- Tagit bort informationstext från sidan /kontakta-oss som hänvisar till nyanlända.
+
 ### Inmatningsgränssnitt v.5.0.1 (Produktionssatt 2018-03-15)
 - Fix för att alla asylstatusar felaktigt sattes till `false` på alla fält [#475](https://trello.com/c/OPrD81az/475)
 
