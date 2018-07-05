@@ -6,6 +6,9 @@
 ------------
 
 ## I Produktion
+### Inmatningsgränssnitt 6.1.2 (Produktionssatt 2018-07-05)
+- Ny länk i footern till policy-texter, som kan ändras via CMS. Tagit bort språkval när användaren laddar ner CV och satt det till Svenska i väntan på översättning av texter till engelska.
+
 ### Sökgränsnitt 5.4.3 (Produktionssatt 2018-07-05)
 - Tagit bort informationstext från sidan /kontakta-oss som hänvisar till nyanlända.
 
